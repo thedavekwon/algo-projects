@@ -1,0 +1,4 @@
+/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang-5.0 -DCMAKE_CXX_COMPILER=/usr/bin/clang++-5.0 -G "CodeBlocks - Unix Makefiles" /home/dodo/Programming/algo-projects/codeforces
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dodo/Programming/algo-projects/codeforces/cmake-build-debug

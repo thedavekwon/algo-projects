@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /home/dodo/Programming/algo-projects/algospot
 CMAKE_BINARY_DIR = /home/dodo/Programming/algo-projects/algospot/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/QUADTREE.dir
+
+# All Build rule for target.
+CMakeFiles/QUADTREE.dir/all:
+	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/depend
+	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target QUADTREE"
+.PHONY : CMakeFiles/QUADTREE.dir/all
+
+# Include target in all.
+all: CMakeFiles/QUADTREE.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/QUADTREE.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/QUADTREE.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/QUADTREE.dir/rule
+
+# Convenience name for target.
+QUADTREE: CMakeFiles/QUADTREE.dir/rule
+
+.PHONY : QUADTREE
+
+# clean rule for target.
+CMakeFiles/QUADTREE.dir/clean:
+	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/clean
+.PHONY : CMakeFiles/QUADTREE.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/QUADTREE.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/CLOCKSYNC.dir
 
 # All Build rule for target.

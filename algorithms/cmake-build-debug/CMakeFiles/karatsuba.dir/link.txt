@@ -1,0 +1,1 @@
+/usr/bin/clang++-5.0  -g  -rdynamic CMakeFiles/karatsuba.dir/math/karatsuba.cpp.o  -o karatsuba 

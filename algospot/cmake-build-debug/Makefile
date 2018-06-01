@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/dodo/Programming/algo-projects/algospot/cmake-build-deb
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named QUADTREE
+
+# Build rule for target.
+QUADTREE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 QUADTREE
+.PHONY : QUADTREE
+
+# fast build rule for target.
+QUADTREE/fast:
+	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/build
+.PHONY : QUADTREE/fast
 
 #=============================================================================
 # Target rules for targets named CLOCKSYNC
@@ -150,18 +163,49 @@ CLOCKSYNC/CLOCKSYNC.cpp.s:
 	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/CLOCKSYNC/CLOCKSYNC.cpp.s
 .PHONY : CLOCKSYNC/CLOCKSYNC.cpp.s
 
+QUADTREE/QUADTREE.o: QUADTREE/QUADTREE.cpp.o
+
+.PHONY : QUADTREE/QUADTREE.o
+
+# target to build an object file
+QUADTREE/QUADTREE.cpp.o:
+	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/QUADTREE/QUADTREE.cpp.o
+.PHONY : QUADTREE/QUADTREE.cpp.o
+
+QUADTREE/QUADTREE.i: QUADTREE/QUADTREE.cpp.i
+
+.PHONY : QUADTREE/QUADTREE.i
+
+# target to preprocess a source file
+QUADTREE/QUADTREE.cpp.i:
+	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/QUADTREE/QUADTREE.cpp.i
+.PHONY : QUADTREE/QUADTREE.cpp.i
+
+QUADTREE/QUADTREE.s: QUADTREE/QUADTREE.cpp.s
+
+.PHONY : QUADTREE/QUADTREE.s
+
+# target to generate assembly for a file
+QUADTREE/QUADTREE.cpp.s:
+	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/QUADTREE/QUADTREE.cpp.s
+.PHONY : QUADTREE/QUADTREE.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... QUADTREE"
 	@echo "... CLOCKSYNC"
 	@echo "... CLOCKSYNC/CLOCKSYNC.o"
 	@echo "... CLOCKSYNC/CLOCKSYNC.i"
 	@echo "... CLOCKSYNC/CLOCKSYNC.s"
+	@echo "... QUADTREE/QUADTREE.o"
+	@echo "... QUADTREE/QUADTREE.i"
+	@echo "... QUADTREE/QUADTREE.s"
 .PHONY : help
 
 

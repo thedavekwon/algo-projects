@@ -22,12 +22,11 @@ int clockSwitch[10][6] = {
         { 4,5,7,14,15,-1, },
         { 1,2,3,4,5,-1, },
         { 3,4,5,9,13,-1, }
-    };
+};
 
 int main() {
-
-//    ifstream in("input.txt");
-//    cin.rdbuf(in.rdbuf());
+    ifstream in("CLOCKSYNC/input.txt");
+    cin.rdbuf(in.rdbuf());
 
     int tc;
     cin >> tc;
@@ -55,7 +54,7 @@ int solve_r(int idx, int cnt) {
         cnt++;
         if (i == 3) ret = min(ret, solve_r(idx+1, cnt-4));
         else ret = min(ret, solve_r(idx+1, cnt));
-        
+
     }
     return ret;
 }

@@ -1,7 +1,10 @@
-cmake_minimum_required (VERSION 2.8)
+cmake_minimum_required (VERSION 3.0)
 
 project(algospot)
 
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -D_GLIBCXX_DEBUG")
 
 add_executable(CLOCKSYNC CLOCKSYNC/CLOCKSYNC.cpp)
+
+add_executable(QUADTREE QUADTREE/QUADTREE.cpp)
