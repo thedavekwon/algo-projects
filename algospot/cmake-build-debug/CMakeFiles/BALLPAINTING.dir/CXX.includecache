@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/dodo/Programming/algo-projects/codeforces/BetaRound11/D.cpp
+/home/dodo/Programming/algo-projects/algospot/BALLPAINTING/BALLPAINTING.cpp
 iostream
 -
 fstream
--
-cstring
 -
 

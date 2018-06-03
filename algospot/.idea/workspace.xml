@@ -4,6 +4,8 @@
     <generated>
       <config projectName="algospot" targetName="QUADTREE" />
       <config projectName="algospot" targetName="CLOCKSYNC" />
+      <config projectName="algospot" targetName="COINS" />
+      <config projectName="algospot" targetName="BALLPAINTING" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -26,7 +28,29 @@
     <favorites_list name="algospot" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf>
+      <file leaf-file-name="input.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BALLPAINTING/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BALLPAINTING.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BALLPAINTING/BALLPAINTING.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,11 +69,15 @@
       <list>
         <option value="$PROJECT_DIR$/create.sh" />
         <option value="$PROJECT_DIR$/CLOCKSYNC/input.txt" />
-        <option value="$PROJECT_DIR$/template.cpp" />
         <option value="$PROJECT_DIR$/CLOCKSYNC/CLOCKSYNC.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/QUADTREE/input.txt" />
         <option value="$PROJECT_DIR$/QUADTREE/QUADTREE.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/COINS/input.txt" />
+        <option value="$PROJECT_DIR$/BALLPAINTING/input.txt" />
+        <option value="$PROJECT_DIR$/COINS/COINS.cpp" />
+        <option value="$PROJECT_DIR$/template.cpp" />
+        <option value="$PROJECT_DIR$/BALLPAINTING/BALLPAINTING.cpp" />
       </list>
     </option>
   </component>
@@ -63,9 +91,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="32" />
+    <option name="y" value="-33" />
     <option name="width" value="1920" />
-    <option name="height" value="1048" />
+    <option name="height" value="1233" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -79,6 +107,16 @@
               <item name="algospot" type="b2602c69:ProjectViewProjectNode" />
               <item name="algospot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algospot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algospot" type="462c0819:PsiDirectoryNode" />
+              <item name="BALLPAINTING" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algospot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algospot" type="462c0819:PsiDirectoryNode" />
+              <item name="COINS" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -87,8 +125,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/dodo/Programming/algo-projects/algospot/COINS/input.txt" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codeforces" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../algorithms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -105,11 +144,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QUADTREE">
-    <configuration name="CLOCKSYNC" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="CLOCKSYNC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="CLOCKSYNC" />
+  <component name="RunManager" selected="Application.BALLPAINTING">
+    <configuration name="BALLPAINTING" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/BALLPAINTING" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="BALLPAINTING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="BALLPAINTING" />
+    <configuration name="CLOCKSYNC" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="CLOCKSYNC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="COINS" />
+    <configuration name="COINS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/COINS" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="COINS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="COINS" />
     <configuration name="QUADTREE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="QUADTREE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="QUADTREE" />
     <list>
+      <item itemvalue="Application.BALLPAINTING" />
       <item itemvalue="Application.CLOCKSYNC" />
+      <item itemvalue="Application.COINS" />
       <item itemvalue="Application.QUADTREE" />
     </list>
   </component>
@@ -128,11 +171,16 @@
       <workItem from="1527784201789" duration="2676000" />
       <workItem from="1527820239015" duration="1924000" />
       <workItem from="1527832095085" duration="5207000" />
+      <workItem from="1527840245218" duration="572000" />
+      <workItem from="1527872574079" duration="652000" />
+      <workItem from="1527909856471" duration="10000" />
+      <workItem from="1527909889878" duration="18000" />
+      <workItem from="1528043251604" duration="4709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12144000" />
+    <option name="totallyTimeSpent" value="18105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -144,23 +192,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49714828" weight="0.3087533" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298479" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32939914" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3284169" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.3298479" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.3298479" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41738197" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947917" weight="0.3298479" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.303125" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32939914" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5009506" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4169125" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info id="Structure" order="1" sideWeight="0.5035461" side_tool="true" weight="0.303125" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49947917" weight="0.32940018" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39823008" />
+      <window_info id="Favorites" order="2" sideWeight="0.5028517" side_tool="true" weight="0.303125" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -168,22 +217,24 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="CMake" order="3" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49714828" visible="true" weight="0.3087533" />
+      <window_info id="Structure" order="1" sideWeight="0.5035461" side_tool="true" weight="0.303125" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298479" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4169125" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32939914" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39823008" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3284169" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947917" weight="0.32940018" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.3298479" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.3298479" />
+      <window_info id="Favorites" order="2" sideWeight="0.5028517" side_tool="true" weight="0.303125" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +245,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -202,9 +253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -219,9 +267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -239,9 +284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -274,13 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CLOCKSYNC.dir/depend.make">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -295,30 +330,10 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CLOCKSYNC/CLOCKSYNC.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/QUADTREE/QUADTREE.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="31" column="26" lean-forward="true" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -326,6 +341,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CLOCKSYNC/CLOCKSYNC.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COINS/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COINS/COINS.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="28" column="30" lean-forward="true" selection-end-line="56" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BALLPAINTING/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BALLPAINTING/BALLPAINTING.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

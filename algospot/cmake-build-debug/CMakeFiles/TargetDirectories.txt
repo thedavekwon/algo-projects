@@ -1,4 +1,6 @@
 /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/CLOCKSYNC.dir
 /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/QUADTREE.dir
-/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/CLOCKSYNC.dir
+/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/COINS.dir
+/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/BALLPAINTING.dir

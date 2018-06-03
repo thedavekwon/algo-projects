@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CLOCKSYNC
+
+# Build rule for target.
+CLOCKSYNC: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CLOCKSYNC
+.PHONY : CLOCKSYNC
+
+# fast build rule for target.
+CLOCKSYNC/fast:
+	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/build
+.PHONY : CLOCKSYNC/fast
+
+#=============================================================================
 # Target rules for targets named QUADTREE
 
 # Build rule for target.
@@ -124,17 +137,57 @@ QUADTREE/fast:
 .PHONY : QUADTREE/fast
 
 #=============================================================================
-# Target rules for targets named CLOCKSYNC
+# Target rules for targets named COINS
 
 # Build rule for target.
-CLOCKSYNC: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CLOCKSYNC
-.PHONY : CLOCKSYNC
+COINS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 COINS
+.PHONY : COINS
 
 # fast build rule for target.
-CLOCKSYNC/fast:
-	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/build
-.PHONY : CLOCKSYNC/fast
+COINS/fast:
+	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/build
+.PHONY : COINS/fast
+
+#=============================================================================
+# Target rules for targets named BALLPAINTING
+
+# Build rule for target.
+BALLPAINTING: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BALLPAINTING
+.PHONY : BALLPAINTING
+
+# fast build rule for target.
+BALLPAINTING/fast:
+	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/build
+.PHONY : BALLPAINTING/fast
+
+BALLPAINTING/BALLPAINTING.o: BALLPAINTING/BALLPAINTING.cpp.o
+
+.PHONY : BALLPAINTING/BALLPAINTING.o
+
+# target to build an object file
+BALLPAINTING/BALLPAINTING.cpp.o:
+	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/BALLPAINTING/BALLPAINTING.cpp.o
+.PHONY : BALLPAINTING/BALLPAINTING.cpp.o
+
+BALLPAINTING/BALLPAINTING.i: BALLPAINTING/BALLPAINTING.cpp.i
+
+.PHONY : BALLPAINTING/BALLPAINTING.i
+
+# target to preprocess a source file
+BALLPAINTING/BALLPAINTING.cpp.i:
+	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/BALLPAINTING/BALLPAINTING.cpp.i
+.PHONY : BALLPAINTING/BALLPAINTING.cpp.i
+
+BALLPAINTING/BALLPAINTING.s: BALLPAINTING/BALLPAINTING.cpp.s
+
+.PHONY : BALLPAINTING/BALLPAINTING.s
+
+# target to generate assembly for a file
+BALLPAINTING/BALLPAINTING.cpp.s:
+	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/BALLPAINTING/BALLPAINTING.cpp.s
+.PHONY : BALLPAINTING/BALLPAINTING.cpp.s
 
 CLOCKSYNC/CLOCKSYNC.o: CLOCKSYNC/CLOCKSYNC.cpp.o
 
@@ -162,6 +215,33 @@ CLOCKSYNC/CLOCKSYNC.s: CLOCKSYNC/CLOCKSYNC.cpp.s
 CLOCKSYNC/CLOCKSYNC.cpp.s:
 	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/CLOCKSYNC/CLOCKSYNC.cpp.s
 .PHONY : CLOCKSYNC/CLOCKSYNC.cpp.s
+
+COINS/COINS.o: COINS/COINS.cpp.o
+
+.PHONY : COINS/COINS.o
+
+# target to build an object file
+COINS/COINS.cpp.o:
+	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/COINS/COINS.cpp.o
+.PHONY : COINS/COINS.cpp.o
+
+COINS/COINS.i: COINS/COINS.cpp.i
+
+.PHONY : COINS/COINS.i
+
+# target to preprocess a source file
+COINS/COINS.cpp.i:
+	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/COINS/COINS.cpp.i
+.PHONY : COINS/COINS.cpp.i
+
+COINS/COINS.s: COINS/COINS.cpp.s
+
+.PHONY : COINS/COINS.s
+
+# target to generate assembly for a file
+COINS/COINS.cpp.s:
+	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/COINS/COINS.cpp.s
+.PHONY : COINS/COINS.cpp.s
 
 QUADTREE/QUADTREE.o: QUADTREE/QUADTREE.cpp.o
 
@@ -197,12 +277,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... CLOCKSYNC"
 	@echo "... rebuild_cache"
 	@echo "... QUADTREE"
-	@echo "... CLOCKSYNC"
+	@echo "... COINS"
+	@echo "... BALLPAINTING"
+	@echo "... BALLPAINTING/BALLPAINTING.o"
+	@echo "... BALLPAINTING/BALLPAINTING.i"
+	@echo "... BALLPAINTING/BALLPAINTING.s"
 	@echo "... CLOCKSYNC/CLOCKSYNC.o"
 	@echo "... CLOCKSYNC/CLOCKSYNC.i"
 	@echo "... CLOCKSYNC/CLOCKSYNC.s"
+	@echo "... COINS/COINS.o"
+	@echo "... COINS/COINS.i"
+	@echo "... COINS/COINS.s"
 	@echo "... QUADTREE/QUADTREE.o"
 	@echo "... QUADTREE/QUADTREE.i"
 	@echo "... QUADTREE/QUADTREE.s"

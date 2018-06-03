@@ -48,6 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/QUADTREE.dir/DependInfo.cmake"
   "CMakeFiles/CLOCKSYNC.dir/DependInfo.cmake"
+  "CMakeFiles/QUADTREE.dir/DependInfo.cmake"
+  "CMakeFiles/COINS.dir/DependInfo.cmake"
+  "CMakeFiles/BALLPAINTING.dir/DependInfo.cmake"
   )
