@@ -3,19 +3,16 @@
 
 using namespace std;
 
-int N;
-int dp[3][1001];
-
-int solve_r(int row, int col) {
-
-}
-
 int main() {
+    ios::sync_with_stdio(false);
+
     ifstream in("./input.txt");
     cin.rdbuf(in.rdbuf());
 
-    cin >> N;
-    while (N != 0) {
-        cout << solve_r(1, N) << endl;
+    int tc;
+    cin >> tc;
+
+    while(tc--) {
+
     }
 }
