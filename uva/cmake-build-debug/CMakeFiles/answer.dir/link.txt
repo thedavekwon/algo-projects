@@ -1,0 +1,1 @@
+/usr/bin/clang++-5.0  -g -D_GLIBCXX_DEBUG  -rdynamic CMakeFiles/answer.dir/507/answer.cpp.o  -o answer 

@@ -1,0 +1,1 @@
+/usr/bin/clang++-5.0  -g -D_GLIBCXX_DEBUG  -rdynamic CMakeFiles/674.dir/674/674.cpp.o  -o 674 

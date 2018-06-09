@@ -1,45 +1,30 @@
 #include <iostream>
 #include <fstream>
-#include <cstring>
 
 using namespace std;
 
 int s;
-
-int dp[20001];
 int road[20001];
 
-void pprint() {
-    for (int i = 0; i < s; i++) {
-        cout << dp[i] << " ";
+pair<int,int> solve_r() {
+    int start = 0, tmp = 0, end  = 0;
+    int sum = 0, ans = 0;
+    for (int i =1; i < s; i++) {
+        sum = sum + road[i-1];
+        // 1) When sum is bigger than current max
+        // 2) When sum is same but longer road
+        if (sum > ans || (sum == ans && i - tmp > end - start)) {
+            ans = sum;
+            end = i;
+            start = tmp;
+        }
+        if (sum < 0) {
+            sum = 0;
+            tmp = i;
+        }
     }
-    cout << endl;
-}
-
-int add(int i, int j){
-    int sum = 0;
-    for (int k = i; k < j+1; k++) {
-        sum += road[k];
-    }
-    return sum;
-}
-
-int solve_r(int idx) {
-//    cout << idx << endl;
-//    pprint();
-    int &ret = dp[idx];
-    if (ret != -1) return ret;
-    if (idx == s-1) return ret = 0;
-    if (road[idx] > 0) return ret = solve_r(idx+1) + road[idx];
-    else return ret = solve_r(idx+1) - road[idx];
-}
-
-int solve() {
-    int ret = 0;
-    for (int i = 0; i < s; ++i) {
-        ret = max(ret, solve_r(i));
-    }
-    return ret;
+    cout << ans << endl;
+    return {start, end};
 }
 
 int main() {
@@ -48,16 +33,19 @@ int main() {
     ifstream in("./input.txt");
     cin.rdbuf(in.rdbuf());
 
+    int route = 0;
     int tc;
     cin >> tc;
 
     while(tc--) {
-        memset(dp, -1, sizeof(dp));
+        route++;
         cin >> s;
         for (int i = 0; i < s-1; ++i) {
             cin >> road[i];
         }
-        cout << solve() << endl;
-        pprint();
-    }
+        auto ans = solve_r();
+        if (ans.first >= ans.second) cout << "Route " << route << " has no nice parts" << endl;
+        else cout << "The nicest part of route " << route << " is between stops " <<
+                  ans.first+1 << " and " << ans.second+1 << endl;
+        }
 }
