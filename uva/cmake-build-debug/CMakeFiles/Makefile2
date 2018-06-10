@@ -60,76 +60,76 @@ CMAKE_SOURCE_DIR = /home/dodo/Programming/algo-projects/uva
 CMAKE_BINARY_DIR = /home/dodo/Programming/algo-projects/uva/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/674.dir
+# Target rules for target CMakeFiles/108.dir
 
 # All Build rule for target.
-CMakeFiles/674.dir/all:
-	$(MAKE) -f CMakeFiles/674.dir/build.make CMakeFiles/674.dir/depend
-	$(MAKE) -f CMakeFiles/674.dir/build.make CMakeFiles/674.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 674"
-.PHONY : CMakeFiles/674.dir/all
+CMakeFiles/108.dir/all:
+	$(MAKE) -f CMakeFiles/108.dir/build.make CMakeFiles/108.dir/depend
+	$(MAKE) -f CMakeFiles/108.dir/build.make CMakeFiles/108.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 108"
+.PHONY : CMakeFiles/108.dir/all
 
 # Include target in all.
-all: CMakeFiles/674.dir/all
+all: CMakeFiles/108.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/674.dir/rule: cmake_check_build_system
+CMakeFiles/108.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/674.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/108.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/674.dir/rule
+.PHONY : CMakeFiles/108.dir/rule
 
 # Convenience name for target.
-674: CMakeFiles/674.dir/rule
+108: CMakeFiles/108.dir/rule
 
-.PHONY : 674
-
-# clean rule for target.
-CMakeFiles/674.dir/clean:
-	$(MAKE) -f CMakeFiles/674.dir/build.make CMakeFiles/674.dir/clean
-.PHONY : CMakeFiles/674.dir/clean
+.PHONY : 108
 
 # clean rule for target.
-clean: CMakeFiles/674.dir/clean
+CMakeFiles/108.dir/clean:
+	$(MAKE) -f CMakeFiles/108.dir/build.make CMakeFiles/108.dir/clean
+.PHONY : CMakeFiles/108.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/108.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/11450.dir
+# Target rules for target CMakeFiles/10003.dir
 
 # All Build rule for target.
-CMakeFiles/11450.dir/all:
-	$(MAKE) -f CMakeFiles/11450.dir/build.make CMakeFiles/11450.dir/depend
-	$(MAKE) -f CMakeFiles/11450.dir/build.make CMakeFiles/11450.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 11450"
-.PHONY : CMakeFiles/11450.dir/all
+CMakeFiles/10003.dir/all:
+	$(MAKE) -f CMakeFiles/10003.dir/build.make CMakeFiles/10003.dir/depend
+	$(MAKE) -f CMakeFiles/10003.dir/build.make CMakeFiles/10003.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 10003"
+.PHONY : CMakeFiles/10003.dir/all
 
 # Include target in all.
-all: CMakeFiles/11450.dir/all
+all: CMakeFiles/10003.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/11450.dir/rule: cmake_check_build_system
+CMakeFiles/10003.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/11450.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/10003.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/11450.dir/rule
+.PHONY : CMakeFiles/10003.dir/rule
 
 # Convenience name for target.
-11450: CMakeFiles/11450.dir/rule
+10003: CMakeFiles/10003.dir/rule
 
-.PHONY : 11450
-
-# clean rule for target.
-CMakeFiles/11450.dir/clean:
-	$(MAKE) -f CMakeFiles/11450.dir/build.make CMakeFiles/11450.dir/clean
-.PHONY : CMakeFiles/11450.dir/clean
+.PHONY : 10003
 
 # clean rule for target.
-clean: CMakeFiles/11450.dir/clean
+CMakeFiles/10003.dir/clean:
+	$(MAKE) -f CMakeFiles/10003.dir/build.make CMakeFiles/10003.dir/clean
+.PHONY : CMakeFiles/10003.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/10003.dir/clean
 
 .PHONY : clean
 
@@ -140,7 +140,7 @@ clean: CMakeFiles/11450.dir/clean
 CMakeFiles/10130.dir/all:
 	$(MAKE) -f CMakeFiles/10130.dir/build.make CMakeFiles/10130.dir/depend
 	$(MAKE) -f CMakeFiles/10130.dir/build.make CMakeFiles/10130.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 10130"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 10130"
 .PHONY : CMakeFiles/10130.dir/all
 
 # Include target in all.
@@ -171,13 +171,87 @@ clean: CMakeFiles/10130.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/11450.dir
+
+# All Build rule for target.
+CMakeFiles/11450.dir/all:
+	$(MAKE) -f CMakeFiles/11450.dir/build.make CMakeFiles/11450.dir/depend
+	$(MAKE) -f CMakeFiles/11450.dir/build.make CMakeFiles/11450.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 11450"
+.PHONY : CMakeFiles/11450.dir/all
+
+# Include target in all.
+all: CMakeFiles/11450.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/11450.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/11450.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/11450.dir/rule
+
+# Convenience name for target.
+11450: CMakeFiles/11450.dir/rule
+
+.PHONY : 11450
+
+# clean rule for target.
+CMakeFiles/11450.dir/clean:
+	$(MAKE) -f CMakeFiles/11450.dir/build.make CMakeFiles/11450.dir/clean
+.PHONY : CMakeFiles/11450.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/11450.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/674.dir
+
+# All Build rule for target.
+CMakeFiles/674.dir/all:
+	$(MAKE) -f CMakeFiles/674.dir/build.make CMakeFiles/674.dir/depend
+	$(MAKE) -f CMakeFiles/674.dir/build.make CMakeFiles/674.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 674"
+.PHONY : CMakeFiles/674.dir/all
+
+# Include target in all.
+all: CMakeFiles/674.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/674.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/674.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/674.dir/rule
+
+# Convenience name for target.
+674: CMakeFiles/674.dir/rule
+
+.PHONY : 674
+
+# clean rule for target.
+CMakeFiles/674.dir/clean:
+	$(MAKE) -f CMakeFiles/674.dir/build.make CMakeFiles/674.dir/clean
+.PHONY : CMakeFiles/674.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/674.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/507.dir
 
 # All Build rule for target.
 CMakeFiles/507.dir/all:
 	$(MAKE) -f CMakeFiles/507.dir/build.make CMakeFiles/507.dir/depend
 	$(MAKE) -f CMakeFiles/507.dir/build.make CMakeFiles/507.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 507"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 507"
 .PHONY : CMakeFiles/507.dir/all
 
 # Include target in all.
@@ -208,13 +282,50 @@ clean: CMakeFiles/507.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/10496.dir
+
+# All Build rule for target.
+CMakeFiles/10496.dir/all:
+	$(MAKE) -f CMakeFiles/10496.dir/build.make CMakeFiles/10496.dir/depend
+	$(MAKE) -f CMakeFiles/10496.dir/build.make CMakeFiles/10496.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 10496"
+.PHONY : CMakeFiles/10496.dir/all
+
+# Include target in all.
+all: CMakeFiles/10496.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/10496.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/10496.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/10496.dir/rule
+
+# Convenience name for target.
+10496: CMakeFiles/10496.dir/rule
+
+.PHONY : 10496
+
+# clean rule for target.
+CMakeFiles/10496.dir/clean:
+	$(MAKE) -f CMakeFiles/10496.dir/build.make CMakeFiles/10496.dir/clean
+.PHONY : CMakeFiles/10496.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/10496.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/answer.dir
 
 # All Build rule for target.
 CMakeFiles/answer.dir/all:
 	$(MAKE) -f CMakeFiles/answer.dir/build.make CMakeFiles/answer.dir/depend
 	$(MAKE) -f CMakeFiles/answer.dir/build.make CMakeFiles/answer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target answer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target answer"
 .PHONY : CMakeFiles/answer.dir/all
 
 # Include target in all.
@@ -245,39 +356,39 @@ clean: CMakeFiles/answer.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/108.dir
+# Target rules for target CMakeFiles/10943.dir
 
 # All Build rule for target.
-CMakeFiles/108.dir/all:
-	$(MAKE) -f CMakeFiles/108.dir/build.make CMakeFiles/108.dir/depend
-	$(MAKE) -f CMakeFiles/108.dir/build.make CMakeFiles/108.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 108"
-.PHONY : CMakeFiles/108.dir/all
+CMakeFiles/10943.dir/all:
+	$(MAKE) -f CMakeFiles/10943.dir/build.make CMakeFiles/10943.dir/depend
+	$(MAKE) -f CMakeFiles/10943.dir/build.make CMakeFiles/10943.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 10943"
+.PHONY : CMakeFiles/10943.dir/all
 
 # Include target in all.
-all: CMakeFiles/108.dir/all
+all: CMakeFiles/10943.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/108.dir/rule: cmake_check_build_system
+CMakeFiles/10943.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/108.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/10943.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/108.dir/rule
+.PHONY : CMakeFiles/10943.dir/rule
 
 # Convenience name for target.
-108: CMakeFiles/108.dir/rule
+10943: CMakeFiles/10943.dir/rule
 
-.PHONY : 108
-
-# clean rule for target.
-CMakeFiles/108.dir/clean:
-	$(MAKE) -f CMakeFiles/108.dir/build.make CMakeFiles/108.dir/clean
-.PHONY : CMakeFiles/108.dir/clean
+.PHONY : 10943
 
 # clean rule for target.
-clean: CMakeFiles/108.dir/clean
+CMakeFiles/10943.dir/clean:
+	$(MAKE) -f CMakeFiles/10943.dir/build.make CMakeFiles/10943.dir/clean
+.PHONY : CMakeFiles/10943.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/10943.dir/clean
 
 .PHONY : clean
 
