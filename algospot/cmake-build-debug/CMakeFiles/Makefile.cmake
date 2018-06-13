@@ -50,6 +50,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CLOCKSYNC.dir/DependInfo.cmake"
   "CMakeFiles/QUADTREE.dir/DependInfo.cmake"
+  "CMakeFiles/FANMEETING.dir/DependInfo.cmake"
   "CMakeFiles/COINS.dir/DependInfo.cmake"
+  "CMakeFiles/FENCE.dir/DependInfo.cmake"
   "CMakeFiles/BALLPAINTING.dir/DependInfo.cmake"
   )

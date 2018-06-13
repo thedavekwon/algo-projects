@@ -103,7 +103,7 @@ clean: CMakeFiles/CLOCKSYNC.dir/clean
 CMakeFiles/QUADTREE.dir/all:
 	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/depend
 	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target QUADTREE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target QUADTREE"
 .PHONY : CMakeFiles/QUADTREE.dir/all
 
 # Include target in all.
@@ -130,6 +130,43 @@ CMakeFiles/QUADTREE.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/QUADTREE.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FANMEETING.dir
+
+# All Build rule for target.
+CMakeFiles/FANMEETING.dir/all:
+	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/depend
+	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target FANMEETING"
+.PHONY : CMakeFiles/FANMEETING.dir/all
+
+# Include target in all.
+all: CMakeFiles/FANMEETING.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FANMEETING.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FANMEETING.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/FANMEETING.dir/rule
+
+# Convenience name for target.
+FANMEETING: CMakeFiles/FANMEETING.dir/rule
+
+.PHONY : FANMEETING
+
+# clean rule for target.
+CMakeFiles/FANMEETING.dir/clean:
+	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/clean
+.PHONY : CMakeFiles/FANMEETING.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/FANMEETING.dir/clean
 
 .PHONY : clean
 
@@ -167,6 +204,43 @@ CMakeFiles/COINS.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/COINS.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FENCE.dir
+
+# All Build rule for target.
+CMakeFiles/FENCE.dir/all:
+	$(MAKE) -f CMakeFiles/FENCE.dir/build.make CMakeFiles/FENCE.dir/depend
+	$(MAKE) -f CMakeFiles/FENCE.dir/build.make CMakeFiles/FENCE.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target FENCE"
+.PHONY : CMakeFiles/FENCE.dir/all
+
+# Include target in all.
+all: CMakeFiles/FENCE.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FENCE.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FENCE.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/FENCE.dir/rule
+
+# Convenience name for target.
+FENCE: CMakeFiles/FENCE.dir/rule
+
+.PHONY : FENCE
+
+# clean rule for target.
+CMakeFiles/FENCE.dir/clean:
+	$(MAKE) -f CMakeFiles/FENCE.dir/build.make CMakeFiles/FENCE.dir/clean
+.PHONY : CMakeFiles/FENCE.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/FENCE.dir/clean
 
 .PHONY : clean
 

@@ -137,6 +137,19 @@ QUADTREE/fast:
 .PHONY : QUADTREE/fast
 
 #=============================================================================
+# Target rules for targets named FANMEETING
+
+# Build rule for target.
+FANMEETING: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FANMEETING
+.PHONY : FANMEETING
+
+# fast build rule for target.
+FANMEETING/fast:
+	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/build
+.PHONY : FANMEETING/fast
+
+#=============================================================================
 # Target rules for targets named COINS
 
 # Build rule for target.
@@ -148,6 +161,19 @@ COINS: cmake_check_build_system
 COINS/fast:
 	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/build
 .PHONY : COINS/fast
+
+#=============================================================================
+# Target rules for targets named FENCE
+
+# Build rule for target.
+FENCE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FENCE
+.PHONY : FENCE
+
+# fast build rule for target.
+FENCE/fast:
+	$(MAKE) -f CMakeFiles/FENCE.dir/build.make CMakeFiles/FENCE.dir/build
+.PHONY : FENCE/fast
 
 #=============================================================================
 # Target rules for targets named BALLPAINTING
@@ -243,6 +269,60 @@ COINS/COINS.cpp.s:
 	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/COINS/COINS.cpp.s
 .PHONY : COINS/COINS.cpp.s
 
+FANMEETING/FANMEETING.o: FANMEETING/FANMEETING.cpp.o
+
+.PHONY : FANMEETING/FANMEETING.o
+
+# target to build an object file
+FANMEETING/FANMEETING.cpp.o:
+	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/FANMEETING/FANMEETING.cpp.o
+.PHONY : FANMEETING/FANMEETING.cpp.o
+
+FANMEETING/FANMEETING.i: FANMEETING/FANMEETING.cpp.i
+
+.PHONY : FANMEETING/FANMEETING.i
+
+# target to preprocess a source file
+FANMEETING/FANMEETING.cpp.i:
+	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/FANMEETING/FANMEETING.cpp.i
+.PHONY : FANMEETING/FANMEETING.cpp.i
+
+FANMEETING/FANMEETING.s: FANMEETING/FANMEETING.cpp.s
+
+.PHONY : FANMEETING/FANMEETING.s
+
+# target to generate assembly for a file
+FANMEETING/FANMEETING.cpp.s:
+	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/FANMEETING/FANMEETING.cpp.s
+.PHONY : FANMEETING/FANMEETING.cpp.s
+
+FENCE/FENCE.o: FENCE/FENCE.cpp.o
+
+.PHONY : FENCE/FENCE.o
+
+# target to build an object file
+FENCE/FENCE.cpp.o:
+	$(MAKE) -f CMakeFiles/FENCE.dir/build.make CMakeFiles/FENCE.dir/FENCE/FENCE.cpp.o
+.PHONY : FENCE/FENCE.cpp.o
+
+FENCE/FENCE.i: FENCE/FENCE.cpp.i
+
+.PHONY : FENCE/FENCE.i
+
+# target to preprocess a source file
+FENCE/FENCE.cpp.i:
+	$(MAKE) -f CMakeFiles/FENCE.dir/build.make CMakeFiles/FENCE.dir/FENCE/FENCE.cpp.i
+.PHONY : FENCE/FENCE.cpp.i
+
+FENCE/FENCE.s: FENCE/FENCE.cpp.s
+
+.PHONY : FENCE/FENCE.s
+
+# target to generate assembly for a file
+FENCE/FENCE.cpp.s:
+	$(MAKE) -f CMakeFiles/FENCE.dir/build.make CMakeFiles/FENCE.dir/FENCE/FENCE.cpp.s
+.PHONY : FENCE/FENCE.cpp.s
+
 QUADTREE/QUADTREE.o: QUADTREE/QUADTREE.cpp.o
 
 .PHONY : QUADTREE/QUADTREE.o
@@ -280,7 +360,9 @@ help:
 	@echo "... CLOCKSYNC"
 	@echo "... rebuild_cache"
 	@echo "... QUADTREE"
+	@echo "... FANMEETING"
 	@echo "... COINS"
+	@echo "... FENCE"
 	@echo "... BALLPAINTING"
 	@echo "... BALLPAINTING/BALLPAINTING.o"
 	@echo "... BALLPAINTING/BALLPAINTING.i"
@@ -291,6 +373,12 @@ help:
 	@echo "... COINS/COINS.o"
 	@echo "... COINS/COINS.i"
 	@echo "... COINS/COINS.s"
+	@echo "... FANMEETING/FANMEETING.o"
+	@echo "... FANMEETING/FANMEETING.i"
+	@echo "... FANMEETING/FANMEETING.s"
+	@echo "... FENCE/FENCE.o"
+	@echo "... FENCE/FENCE.i"
+	@echo "... FENCE/FENCE.s"
 	@echo "... QUADTREE/QUADTREE.o"
 	@echo "... QUADTREE/QUADTREE.i"
 	@echo "... QUADTREE/QUADTREE.s"

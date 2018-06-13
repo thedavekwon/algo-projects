@@ -6,7 +6,7 @@ using namespace std;
 int ptr;
 string input;
 
-string solve_r();
+int solve_r();
 
 int main() {
 //    ifstream in("QUADTREE/input.txt");
@@ -25,7 +25,7 @@ int main() {
     }
 }
 
-string solve_r() {
+int solve_r() {
     if (input[ptr] != 'x') return string(1, input[ptr++]);
     ptr++;
     string s1 = solve_r();
