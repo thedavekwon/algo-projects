@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E remove -f
+RM = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/dodo/Programming/algo-projects/algospot/cmake-build-deb
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -111,56 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CLOCKSYNC
+# Target rules for targets named BALLPAINTING
 
 # Build rule for target.
-CLOCKSYNC: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CLOCKSYNC
-.PHONY : CLOCKSYNC
+BALLPAINTING: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BALLPAINTING
+.PHONY : BALLPAINTING
 
 # fast build rule for target.
-CLOCKSYNC/fast:
-	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/build
-.PHONY : CLOCKSYNC/fast
-
-#=============================================================================
-# Target rules for targets named QUADTREE
-
-# Build rule for target.
-QUADTREE: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 QUADTREE
-.PHONY : QUADTREE
-
-# fast build rule for target.
-QUADTREE/fast:
-	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/build
-.PHONY : QUADTREE/fast
-
-#=============================================================================
-# Target rules for targets named FANMEETING
-
-# Build rule for target.
-FANMEETING: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FANMEETING
-.PHONY : FANMEETING
-
-# fast build rule for target.
-FANMEETING/fast:
-	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/build
-.PHONY : FANMEETING/fast
-
-#=============================================================================
-# Target rules for targets named COINS
-
-# Build rule for target.
-COINS: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 COINS
-.PHONY : COINS
-
-# fast build rule for target.
-COINS/fast:
-	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/build
-.PHONY : COINS/fast
+BALLPAINTING/fast:
+	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/build
+.PHONY : BALLPAINTING/fast
 
 #=============================================================================
 # Target rules for targets named FENCE
@@ -176,17 +137,108 @@ FENCE/fast:
 .PHONY : FENCE/fast
 
 #=============================================================================
-# Target rules for targets named BALLPAINTING
+# Target rules for targets named FANMEETING
 
 # Build rule for target.
-BALLPAINTING: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BALLPAINTING
-.PHONY : BALLPAINTING
+FANMEETING: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FANMEETING
+.PHONY : FANMEETING
 
 # fast build rule for target.
-BALLPAINTING/fast:
-	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/build
-.PHONY : BALLPAINTING/fast
+FANMEETING/fast:
+	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/build
+.PHONY : FANMEETING/fast
+
+#=============================================================================
+# Target rules for targets named LIS
+
+# Build rule for target.
+LIS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LIS
+.PHONY : LIS
+
+# fast build rule for target.
+LIS/fast:
+	$(MAKE) -f CMakeFiles/LIS.dir/build.make CMakeFiles/LIS.dir/build
+.PHONY : LIS/fast
+
+#=============================================================================
+# Target rules for targets named CLOCKSYNC
+
+# Build rule for target.
+CLOCKSYNC: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CLOCKSYNC
+.PHONY : CLOCKSYNC
+
+# fast build rule for target.
+CLOCKSYNC/fast:
+	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/build
+.PHONY : CLOCKSYNC/fast
+
+#=============================================================================
+# Target rules for targets named JUMPGAME
+
+# Build rule for target.
+JUMPGAME: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 JUMPGAME
+.PHONY : JUMPGAME
+
+# fast build rule for target.
+JUMPGAME/fast:
+	$(MAKE) -f CMakeFiles/JUMPGAME.dir/build.make CMakeFiles/JUMPGAME.dir/build
+.PHONY : JUMPGAME/fast
+
+#=============================================================================
+# Target rules for targets named QUADTREE
+
+# Build rule for target.
+QUADTREE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 QUADTREE
+.PHONY : QUADTREE
+
+# fast build rule for target.
+QUADTREE/fast:
+	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/build
+.PHONY : QUADTREE/fast
+
+#=============================================================================
+# Target rules for targets named TRIANGLEPATH
+
+# Build rule for target.
+TRIANGLEPATH: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TRIANGLEPATH
+.PHONY : TRIANGLEPATH
+
+# fast build rule for target.
+TRIANGLEPATH/fast:
+	$(MAKE) -f CMakeFiles/TRIANGLEPATH.dir/build.make CMakeFiles/TRIANGLEPATH.dir/build
+.PHONY : TRIANGLEPATH/fast
+
+#=============================================================================
+# Target rules for targets named COINS
+
+# Build rule for target.
+COINS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 COINS
+.PHONY : COINS
+
+# fast build rule for target.
+COINS/fast:
+	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/build
+.PHONY : COINS/fast
+
+#=============================================================================
+# Target rules for targets named WILDCARD
+
+# Build rule for target.
+WILDCARD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WILDCARD
+.PHONY : WILDCARD
+
+# fast build rule for target.
+WILDCARD/fast:
+	$(MAKE) -f CMakeFiles/WILDCARD.dir/build.make CMakeFiles/WILDCARD.dir/build
+.PHONY : WILDCARD/fast
 
 BALLPAINTING/BALLPAINTING.o: BALLPAINTING/BALLPAINTING.cpp.o
 
@@ -323,6 +375,60 @@ FENCE/FENCE.cpp.s:
 	$(MAKE) -f CMakeFiles/FENCE.dir/build.make CMakeFiles/FENCE.dir/FENCE/FENCE.cpp.s
 .PHONY : FENCE/FENCE.cpp.s
 
+JUMPGAME/JUMPGAME.o: JUMPGAME/JUMPGAME.cpp.o
+
+.PHONY : JUMPGAME/JUMPGAME.o
+
+# target to build an object file
+JUMPGAME/JUMPGAME.cpp.o:
+	$(MAKE) -f CMakeFiles/JUMPGAME.dir/build.make CMakeFiles/JUMPGAME.dir/JUMPGAME/JUMPGAME.cpp.o
+.PHONY : JUMPGAME/JUMPGAME.cpp.o
+
+JUMPGAME/JUMPGAME.i: JUMPGAME/JUMPGAME.cpp.i
+
+.PHONY : JUMPGAME/JUMPGAME.i
+
+# target to preprocess a source file
+JUMPGAME/JUMPGAME.cpp.i:
+	$(MAKE) -f CMakeFiles/JUMPGAME.dir/build.make CMakeFiles/JUMPGAME.dir/JUMPGAME/JUMPGAME.cpp.i
+.PHONY : JUMPGAME/JUMPGAME.cpp.i
+
+JUMPGAME/JUMPGAME.s: JUMPGAME/JUMPGAME.cpp.s
+
+.PHONY : JUMPGAME/JUMPGAME.s
+
+# target to generate assembly for a file
+JUMPGAME/JUMPGAME.cpp.s:
+	$(MAKE) -f CMakeFiles/JUMPGAME.dir/build.make CMakeFiles/JUMPGAME.dir/JUMPGAME/JUMPGAME.cpp.s
+.PHONY : JUMPGAME/JUMPGAME.cpp.s
+
+LIS/LIS.o: LIS/LIS.cpp.o
+
+.PHONY : LIS/LIS.o
+
+# target to build an object file
+LIS/LIS.cpp.o:
+	$(MAKE) -f CMakeFiles/LIS.dir/build.make CMakeFiles/LIS.dir/LIS/LIS.cpp.o
+.PHONY : LIS/LIS.cpp.o
+
+LIS/LIS.i: LIS/LIS.cpp.i
+
+.PHONY : LIS/LIS.i
+
+# target to preprocess a source file
+LIS/LIS.cpp.i:
+	$(MAKE) -f CMakeFiles/LIS.dir/build.make CMakeFiles/LIS.dir/LIS/LIS.cpp.i
+.PHONY : LIS/LIS.cpp.i
+
+LIS/LIS.s: LIS/LIS.cpp.s
+
+.PHONY : LIS/LIS.s
+
+# target to generate assembly for a file
+LIS/LIS.cpp.s:
+	$(MAKE) -f CMakeFiles/LIS.dir/build.make CMakeFiles/LIS.dir/LIS/LIS.cpp.s
+.PHONY : LIS/LIS.cpp.s
+
 QUADTREE/QUADTREE.o: QUADTREE/QUADTREE.cpp.o
 
 .PHONY : QUADTREE/QUADTREE.o
@@ -350,6 +456,60 @@ QUADTREE/QUADTREE.cpp.s:
 	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/QUADTREE/QUADTREE.cpp.s
 .PHONY : QUADTREE/QUADTREE.cpp.s
 
+TRIANGLEPATH/TRIANGLEPATH.o: TRIANGLEPATH/TRIANGLEPATH.cpp.o
+
+.PHONY : TRIANGLEPATH/TRIANGLEPATH.o
+
+# target to build an object file
+TRIANGLEPATH/TRIANGLEPATH.cpp.o:
+	$(MAKE) -f CMakeFiles/TRIANGLEPATH.dir/build.make CMakeFiles/TRIANGLEPATH.dir/TRIANGLEPATH/TRIANGLEPATH.cpp.o
+.PHONY : TRIANGLEPATH/TRIANGLEPATH.cpp.o
+
+TRIANGLEPATH/TRIANGLEPATH.i: TRIANGLEPATH/TRIANGLEPATH.cpp.i
+
+.PHONY : TRIANGLEPATH/TRIANGLEPATH.i
+
+# target to preprocess a source file
+TRIANGLEPATH/TRIANGLEPATH.cpp.i:
+	$(MAKE) -f CMakeFiles/TRIANGLEPATH.dir/build.make CMakeFiles/TRIANGLEPATH.dir/TRIANGLEPATH/TRIANGLEPATH.cpp.i
+.PHONY : TRIANGLEPATH/TRIANGLEPATH.cpp.i
+
+TRIANGLEPATH/TRIANGLEPATH.s: TRIANGLEPATH/TRIANGLEPATH.cpp.s
+
+.PHONY : TRIANGLEPATH/TRIANGLEPATH.s
+
+# target to generate assembly for a file
+TRIANGLEPATH/TRIANGLEPATH.cpp.s:
+	$(MAKE) -f CMakeFiles/TRIANGLEPATH.dir/build.make CMakeFiles/TRIANGLEPATH.dir/TRIANGLEPATH/TRIANGLEPATH.cpp.s
+.PHONY : TRIANGLEPATH/TRIANGLEPATH.cpp.s
+
+WILDCARD/WILDCARD.o: WILDCARD/WILDCARD.cpp.o
+
+.PHONY : WILDCARD/WILDCARD.o
+
+# target to build an object file
+WILDCARD/WILDCARD.cpp.o:
+	$(MAKE) -f CMakeFiles/WILDCARD.dir/build.make CMakeFiles/WILDCARD.dir/WILDCARD/WILDCARD.cpp.o
+.PHONY : WILDCARD/WILDCARD.cpp.o
+
+WILDCARD/WILDCARD.i: WILDCARD/WILDCARD.cpp.i
+
+.PHONY : WILDCARD/WILDCARD.i
+
+# target to preprocess a source file
+WILDCARD/WILDCARD.cpp.i:
+	$(MAKE) -f CMakeFiles/WILDCARD.dir/build.make CMakeFiles/WILDCARD.dir/WILDCARD/WILDCARD.cpp.i
+.PHONY : WILDCARD/WILDCARD.cpp.i
+
+WILDCARD/WILDCARD.s: WILDCARD/WILDCARD.cpp.s
+
+.PHONY : WILDCARD/WILDCARD.s
+
+# target to generate assembly for a file
+WILDCARD/WILDCARD.cpp.s:
+	$(MAKE) -f CMakeFiles/WILDCARD.dir/build.make CMakeFiles/WILDCARD.dir/WILDCARD/WILDCARD.cpp.s
+.PHONY : WILDCARD/WILDCARD.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -357,13 +517,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... CLOCKSYNC"
-	@echo "... rebuild_cache"
-	@echo "... QUADTREE"
-	@echo "... FANMEETING"
-	@echo "... COINS"
-	@echo "... FENCE"
 	@echo "... BALLPAINTING"
+	@echo "... FENCE"
+	@echo "... FANMEETING"
+	@echo "... LIS"
+	@echo "... rebuild_cache"
+	@echo "... CLOCKSYNC"
+	@echo "... JUMPGAME"
+	@echo "... QUADTREE"
+	@echo "... TRIANGLEPATH"
+	@echo "... COINS"
+	@echo "... WILDCARD"
 	@echo "... BALLPAINTING/BALLPAINTING.o"
 	@echo "... BALLPAINTING/BALLPAINTING.i"
 	@echo "... BALLPAINTING/BALLPAINTING.s"
@@ -379,9 +543,21 @@ help:
 	@echo "... FENCE/FENCE.o"
 	@echo "... FENCE/FENCE.i"
 	@echo "... FENCE/FENCE.s"
+	@echo "... JUMPGAME/JUMPGAME.o"
+	@echo "... JUMPGAME/JUMPGAME.i"
+	@echo "... JUMPGAME/JUMPGAME.s"
+	@echo "... LIS/LIS.o"
+	@echo "... LIS/LIS.i"
+	@echo "... LIS/LIS.s"
 	@echo "... QUADTREE/QUADTREE.o"
 	@echo "... QUADTREE/QUADTREE.i"
 	@echo "... QUADTREE/QUADTREE.s"
+	@echo "... TRIANGLEPATH/TRIANGLEPATH.o"
+	@echo "... TRIANGLEPATH/TRIANGLEPATH.i"
+	@echo "... TRIANGLEPATH/TRIANGLEPATH.s"
+	@echo "... WILDCARD/WILDCARD.o"
+	@echo "... WILDCARD/WILDCARD.i"
+	@echo "... WILDCARD/WILDCARD.s"
 .PHONY : help
 
 

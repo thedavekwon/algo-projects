@@ -4,3 +4,4 @@ project(algorithms)
 
 set(CMAKE_CXX_STANDARD 11)
 add_executable(karatsuba math/karatsuba.cpp)
+add_executable(tree data_structure/tree.cpp)

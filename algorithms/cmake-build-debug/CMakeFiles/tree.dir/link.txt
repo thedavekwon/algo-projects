@@ -1,0 +1,1 @@
+/usr/bin/clang++-5.0  -g  -rdynamic CMakeFiles/tree.dir/data_structure/tree.cpp.o  -o tree 

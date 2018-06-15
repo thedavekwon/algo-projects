@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E remove -f
+RM = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,150 +60,39 @@ CMAKE_SOURCE_DIR = /home/dodo/Programming/algo-projects/algospot
 CMAKE_BINARY_DIR = /home/dodo/Programming/algo-projects/algospot/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/CLOCKSYNC.dir
+# Target rules for target CMakeFiles/BALLPAINTING.dir
 
 # All Build rule for target.
-CMakeFiles/CLOCKSYNC.dir/all:
-	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/depend
-	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target CLOCKSYNC"
-.PHONY : CMakeFiles/CLOCKSYNC.dir/all
+CMakeFiles/BALLPAINTING.dir/all:
+	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/depend
+	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BALLPAINTING"
+.PHONY : CMakeFiles/BALLPAINTING.dir/all
 
 # Include target in all.
-all: CMakeFiles/CLOCKSYNC.dir/all
+all: CMakeFiles/BALLPAINTING.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CLOCKSYNC.dir/rule: cmake_check_build_system
+CMakeFiles/BALLPAINTING.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CLOCKSYNC.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BALLPAINTING.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/CLOCKSYNC.dir/rule
+.PHONY : CMakeFiles/BALLPAINTING.dir/rule
 
 # Convenience name for target.
-CLOCKSYNC: CMakeFiles/CLOCKSYNC.dir/rule
+BALLPAINTING: CMakeFiles/BALLPAINTING.dir/rule
 
-.PHONY : CLOCKSYNC
-
-# clean rule for target.
-CMakeFiles/CLOCKSYNC.dir/clean:
-	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/clean
-.PHONY : CMakeFiles/CLOCKSYNC.dir/clean
+.PHONY : BALLPAINTING
 
 # clean rule for target.
-clean: CMakeFiles/CLOCKSYNC.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/QUADTREE.dir
-
-# All Build rule for target.
-CMakeFiles/QUADTREE.dir/all:
-	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/depend
-	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target QUADTREE"
-.PHONY : CMakeFiles/QUADTREE.dir/all
-
-# Include target in all.
-all: CMakeFiles/QUADTREE.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/QUADTREE.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/QUADTREE.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/QUADTREE.dir/rule
-
-# Convenience name for target.
-QUADTREE: CMakeFiles/QUADTREE.dir/rule
-
-.PHONY : QUADTREE
+CMakeFiles/BALLPAINTING.dir/clean:
+	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/clean
+.PHONY : CMakeFiles/BALLPAINTING.dir/clean
 
 # clean rule for target.
-CMakeFiles/QUADTREE.dir/clean:
-	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/clean
-.PHONY : CMakeFiles/QUADTREE.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/QUADTREE.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/FANMEETING.dir
-
-# All Build rule for target.
-CMakeFiles/FANMEETING.dir/all:
-	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/depend
-	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target FANMEETING"
-.PHONY : CMakeFiles/FANMEETING.dir/all
-
-# Include target in all.
-all: CMakeFiles/FANMEETING.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/FANMEETING.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FANMEETING.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/FANMEETING.dir/rule
-
-# Convenience name for target.
-FANMEETING: CMakeFiles/FANMEETING.dir/rule
-
-.PHONY : FANMEETING
-
-# clean rule for target.
-CMakeFiles/FANMEETING.dir/clean:
-	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/clean
-.PHONY : CMakeFiles/FANMEETING.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/FANMEETING.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/COINS.dir
-
-# All Build rule for target.
-CMakeFiles/COINS.dir/all:
-	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/depend
-	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target COINS"
-.PHONY : CMakeFiles/COINS.dir/all
-
-# Include target in all.
-all: CMakeFiles/COINS.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/COINS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/COINS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/COINS.dir/rule
-
-# Convenience name for target.
-COINS: CMakeFiles/COINS.dir/rule
-
-.PHONY : COINS
-
-# clean rule for target.
-CMakeFiles/COINS.dir/clean:
-	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/clean
-.PHONY : CMakeFiles/COINS.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/COINS.dir/clean
+clean: CMakeFiles/BALLPAINTING.dir/clean
 
 .PHONY : clean
 
@@ -245,39 +134,298 @@ clean: CMakeFiles/FENCE.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/BALLPAINTING.dir
+# Target rules for target CMakeFiles/FANMEETING.dir
 
 # All Build rule for target.
-CMakeFiles/BALLPAINTING.dir/all:
-	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/depend
-	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BALLPAINTING"
-.PHONY : CMakeFiles/BALLPAINTING.dir/all
+CMakeFiles/FANMEETING.dir/all:
+	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/depend
+	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target FANMEETING"
+.PHONY : CMakeFiles/FANMEETING.dir/all
 
 # Include target in all.
-all: CMakeFiles/BALLPAINTING.dir/all
+all: CMakeFiles/FANMEETING.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/BALLPAINTING.dir/rule: cmake_check_build_system
+CMakeFiles/FANMEETING.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BALLPAINTING.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FANMEETING.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/BALLPAINTING.dir/rule
+.PHONY : CMakeFiles/FANMEETING.dir/rule
 
 # Convenience name for target.
-BALLPAINTING: CMakeFiles/BALLPAINTING.dir/rule
+FANMEETING: CMakeFiles/FANMEETING.dir/rule
 
-.PHONY : BALLPAINTING
-
-# clean rule for target.
-CMakeFiles/BALLPAINTING.dir/clean:
-	$(MAKE) -f CMakeFiles/BALLPAINTING.dir/build.make CMakeFiles/BALLPAINTING.dir/clean
-.PHONY : CMakeFiles/BALLPAINTING.dir/clean
+.PHONY : FANMEETING
 
 # clean rule for target.
-clean: CMakeFiles/BALLPAINTING.dir/clean
+CMakeFiles/FANMEETING.dir/clean:
+	$(MAKE) -f CMakeFiles/FANMEETING.dir/build.make CMakeFiles/FANMEETING.dir/clean
+.PHONY : CMakeFiles/FANMEETING.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/FANMEETING.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/LIS.dir
+
+# All Build rule for target.
+CMakeFiles/LIS.dir/all:
+	$(MAKE) -f CMakeFiles/LIS.dir/build.make CMakeFiles/LIS.dir/depend
+	$(MAKE) -f CMakeFiles/LIS.dir/build.make CMakeFiles/LIS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target LIS"
+.PHONY : CMakeFiles/LIS.dir/all
+
+# Include target in all.
+all: CMakeFiles/LIS.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LIS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LIS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/LIS.dir/rule
+
+# Convenience name for target.
+LIS: CMakeFiles/LIS.dir/rule
+
+.PHONY : LIS
+
+# clean rule for target.
+CMakeFiles/LIS.dir/clean:
+	$(MAKE) -f CMakeFiles/LIS.dir/build.make CMakeFiles/LIS.dir/clean
+.PHONY : CMakeFiles/LIS.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/LIS.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CLOCKSYNC.dir
+
+# All Build rule for target.
+CMakeFiles/CLOCKSYNC.dir/all:
+	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/depend
+	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target CLOCKSYNC"
+.PHONY : CMakeFiles/CLOCKSYNC.dir/all
+
+# Include target in all.
+all: CMakeFiles/CLOCKSYNC.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CLOCKSYNC.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CLOCKSYNC.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CLOCKSYNC.dir/rule
+
+# Convenience name for target.
+CLOCKSYNC: CMakeFiles/CLOCKSYNC.dir/rule
+
+.PHONY : CLOCKSYNC
+
+# clean rule for target.
+CMakeFiles/CLOCKSYNC.dir/clean:
+	$(MAKE) -f CMakeFiles/CLOCKSYNC.dir/build.make CMakeFiles/CLOCKSYNC.dir/clean
+.PHONY : CMakeFiles/CLOCKSYNC.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/CLOCKSYNC.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/JUMPGAME.dir
+
+# All Build rule for target.
+CMakeFiles/JUMPGAME.dir/all:
+	$(MAKE) -f CMakeFiles/JUMPGAME.dir/build.make CMakeFiles/JUMPGAME.dir/depend
+	$(MAKE) -f CMakeFiles/JUMPGAME.dir/build.make CMakeFiles/JUMPGAME.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target JUMPGAME"
+.PHONY : CMakeFiles/JUMPGAME.dir/all
+
+# Include target in all.
+all: CMakeFiles/JUMPGAME.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/JUMPGAME.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/JUMPGAME.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/JUMPGAME.dir/rule
+
+# Convenience name for target.
+JUMPGAME: CMakeFiles/JUMPGAME.dir/rule
+
+.PHONY : JUMPGAME
+
+# clean rule for target.
+CMakeFiles/JUMPGAME.dir/clean:
+	$(MAKE) -f CMakeFiles/JUMPGAME.dir/build.make CMakeFiles/JUMPGAME.dir/clean
+.PHONY : CMakeFiles/JUMPGAME.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/JUMPGAME.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/QUADTREE.dir
+
+# All Build rule for target.
+CMakeFiles/QUADTREE.dir/all:
+	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/depend
+	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target QUADTREE"
+.PHONY : CMakeFiles/QUADTREE.dir/all
+
+# Include target in all.
+all: CMakeFiles/QUADTREE.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/QUADTREE.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/QUADTREE.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/QUADTREE.dir/rule
+
+# Convenience name for target.
+QUADTREE: CMakeFiles/QUADTREE.dir/rule
+
+.PHONY : QUADTREE
+
+# clean rule for target.
+CMakeFiles/QUADTREE.dir/clean:
+	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/clean
+.PHONY : CMakeFiles/QUADTREE.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/QUADTREE.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/TRIANGLEPATH.dir
+
+# All Build rule for target.
+CMakeFiles/TRIANGLEPATH.dir/all:
+	$(MAKE) -f CMakeFiles/TRIANGLEPATH.dir/build.make CMakeFiles/TRIANGLEPATH.dir/depend
+	$(MAKE) -f CMakeFiles/TRIANGLEPATH.dir/build.make CMakeFiles/TRIANGLEPATH.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target TRIANGLEPATH"
+.PHONY : CMakeFiles/TRIANGLEPATH.dir/all
+
+# Include target in all.
+all: CMakeFiles/TRIANGLEPATH.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TRIANGLEPATH.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TRIANGLEPATH.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/TRIANGLEPATH.dir/rule
+
+# Convenience name for target.
+TRIANGLEPATH: CMakeFiles/TRIANGLEPATH.dir/rule
+
+.PHONY : TRIANGLEPATH
+
+# clean rule for target.
+CMakeFiles/TRIANGLEPATH.dir/clean:
+	$(MAKE) -f CMakeFiles/TRIANGLEPATH.dir/build.make CMakeFiles/TRIANGLEPATH.dir/clean
+.PHONY : CMakeFiles/TRIANGLEPATH.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/TRIANGLEPATH.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/COINS.dir
+
+# All Build rule for target.
+CMakeFiles/COINS.dir/all:
+	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/depend
+	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target COINS"
+.PHONY : CMakeFiles/COINS.dir/all
+
+# Include target in all.
+all: CMakeFiles/COINS.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/COINS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/COINS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/COINS.dir/rule
+
+# Convenience name for target.
+COINS: CMakeFiles/COINS.dir/rule
+
+.PHONY : COINS
+
+# clean rule for target.
+CMakeFiles/COINS.dir/clean:
+	$(MAKE) -f CMakeFiles/COINS.dir/build.make CMakeFiles/COINS.dir/clean
+.PHONY : CMakeFiles/COINS.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/COINS.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/WILDCARD.dir
+
+# All Build rule for target.
+CMakeFiles/WILDCARD.dir/all:
+	$(MAKE) -f CMakeFiles/WILDCARD.dir/build.make CMakeFiles/WILDCARD.dir/depend
+	$(MAKE) -f CMakeFiles/WILDCARD.dir/build.make CMakeFiles/WILDCARD.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target WILDCARD"
+.PHONY : CMakeFiles/WILDCARD.dir/all
+
+# Include target in all.
+all: CMakeFiles/WILDCARD.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/WILDCARD.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/WILDCARD.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/WILDCARD.dir/rule
+
+# Convenience name for target.
+WILDCARD: CMakeFiles/WILDCARD.dir/rule
+
+.PHONY : WILDCARD
+
+# clean rule for target.
+CMakeFiles/WILDCARD.dir/clean:
+	$(MAKE) -f CMakeFiles/WILDCARD.dir/build.make CMakeFiles/WILDCARD.dir/clean
+.PHONY : CMakeFiles/WILDCARD.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/WILDCARD.dir/clean
 
 .PHONY : clean
 

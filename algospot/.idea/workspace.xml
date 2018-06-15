@@ -2,12 +2,16 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="algospot" targetName="BALLPAINTING" />
+      <config projectName="algospot" targetName="FANMEETING" />
+      <config projectName="algospot" targetName="JUMPGAME" />
+      <config projectName="algospot" targetName="TRIANGLEPATH" />
+      <config projectName="algospot" targetName="COINS" />
+      <config projectName="algospot" targetName="CLOCKSYNC" />
       <config projectName="algospot" targetName="FENCE" />
       <config projectName="algospot" targetName="QUADTREE" />
-      <config projectName="algospot" targetName="FANMEETING" />
-      <config projectName="algospot" targetName="CLOCKSYNC" />
-      <config projectName="algospot" targetName="COINS" />
-      <config projectName="algospot" targetName="BALLPAINTING" />
+      <config projectName="algospot" targetName="LIS" />
+      <config projectName="algospot" targetName="WILDCARD" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -31,41 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FANMEETING.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FANMEETING/FANMEETING.cpp">
+      <file leaf-file-name="LIS.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LIS/LIS.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="c++config.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="428" selection-start-line="428" selection-end-line="428" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic_string.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/5/bits/basic_string.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="851" selection-start-line="851" selection-end-line="851" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FANMEETING/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="242">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -82,6 +56,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>987654321</find>
+      <find>nor</find>
+      <find>naive</find>
+      <find>multiply</find>
+      <find>normalize</find>
       <find>cout</find>
     </findStrings>
   </component>
@@ -101,8 +79,16 @@
         <option value="$PROJECT_DIR$/BALLPAINTING/BALLPAINTING.cpp" />
         <option value="$PROJECT_DIR$/FENCE/input.txt" />
         <option value="$PROJECT_DIR$/FENCE/FENCE.cpp" />
-        <option value="$PROJECT_DIR$/FANMEETING/FANMEETING.cpp" />
         <option value="$PROJECT_DIR$/FANMEETING/input.txt" />
+        <option value="$PROJECT_DIR$/FANMEETING/FANMEETING.cpp" />
+        <option value="$PROJECT_DIR$/JUMPGAME/input.txt" />
+        <option value="$PROJECT_DIR$/JUMPGAME/JUMPGAME.cpp" />
+        <option value="$PROJECT_DIR$/WILDCARD/WILDCARD.cpp" />
+        <option value="$PROJECT_DIR$/WILDCARD/input.txt" />
+        <option value="$PROJECT_DIR$/TRIANGLEPATH/input.txt" />
+        <option value="$PROJECT_DIR$/TRIANGLEPATH/TRIANGLEPATH.cpp" />
+        <option value="$PROJECT_DIR$/LIS/input.txt" />
+        <option value="$PROJECT_DIR$/LIS/LIS.cpp" />
       </list>
     </option>
   </component>
@@ -125,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,12 +121,13 @@
             <path>
               <item name="algospot" type="b2602c69:ProjectViewProjectNode" />
               <item name="algospot" type="462c0819:PsiDirectoryNode" />
-              <item name="FANMEETING" type="462c0819:PsiDirectoryNode" />
+              <item name="LIS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,20 +150,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FANMEETING">
-    <configuration name="BALLPAINTING" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/BALLPAINTING" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="BALLPAINTING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="FANMEETING" />
-    <configuration name="CLOCKSYNC" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="CLOCKSYNC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="FANMEETING" />
-    <configuration name="COINS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/COINS" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="COINS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="FANMEETING" />
-    <configuration name="FANMEETING" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/FANMEETING" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="FANMEETING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="FANMEETING" />
-    <configuration name="FENCE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/FENCE" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="FENCE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="FENCE" />
-    <configuration name="QUADTREE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="QUADTREE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="QUADTREE" />
+  <component name="RunManager" selected="Application.LIS">
+    <configuration name="BALLPAINTING" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/BALLPAINTING" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="BALLPAINTING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
+    <configuration name="CLOCKSYNC" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="CLOCKSYNC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
+    <configuration name="COINS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/COINS" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="COINS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
+    <configuration name="FANMEETING" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/FANMEETING" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="FANMEETING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
+    <configuration name="FENCE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/FENCE" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="FENCE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
+    <configuration name="JUMPGAME" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/JUMPGAME" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="JUMPGAME" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
+    <configuration name="LIS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/LIS" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="LIS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
+    <configuration name="QUADTREE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="QUADTREE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="TRIANGLEPATH" />
+    <configuration name="TRIANGLEPATH" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/TRIANGLEPATH" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="TRIANGLEPATH" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="TRIANGLEPATH" />
+    <configuration name="WILDCARD" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/WILDCARD" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="TRIANGLEPATH" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="TRIANGLEPATH" />
     <list>
       <item itemvalue="Application.BALLPAINTING" />
       <item itemvalue="Application.CLOCKSYNC" />
       <item itemvalue="Application.COINS" />
       <item itemvalue="Application.FANMEETING" />
       <item itemvalue="Application.FENCE" />
+      <item itemvalue="Application.JUMPGAME" />
+      <item itemvalue="Application.LIS" />
       <item itemvalue="Application.QUADTREE" />
+      <item itemvalue="Application.TRIANGLEPATH" />
+      <item itemvalue="Application.WILDCARD" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -204,11 +198,15 @@
       <workItem from="1528130796738" duration="8000" />
       <workItem from="1528867359137" duration="4811000" />
       <workItem from="1528880874434" duration="4146000" />
+      <workItem from="1528915818097" duration="3674000" />
+      <workItem from="1528950074144" duration="8415000" />
+      <workItem from="1528992735828" duration="34000" />
+      <workItem from="1529045438747" duration="894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29485000" />
+    <option name="totallyTimeSpent" value="42502000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -223,9 +221,8 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49714828" visible="true" weight="0.18408488" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49714828" visible="true" weight="0.18408488" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298479" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3277592" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.3298479" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50132626" side_tool="true" weight="0.32887402" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
@@ -239,6 +236,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3277592" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -273,10 +271,34 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="35" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file:///usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9416">
+          <caret line="428" selection-start-line="428" selection-end-line="428" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18722">
+          <caret line="851" selection-start-line="851" selection-end-line="851" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FANMEETING/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BALLPAINTING/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -288,9 +310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -305,9 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -322,9 +338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -455,9 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -486,9 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -508,32 +515,95 @@
     </entry>
     <entry file="file:///usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
+        <state relative-caret-position="9416">
           <caret line="428" selection-start-line="428" selection-end-line="428" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/include/c++/5/bits/basic_string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="18722">
           <caret line="851" selection-start-line="851" selection-end-line="851" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5.4.0/debug/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="408" selection-start-line="408" selection-end-line="408" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/debug/vector">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1874">
+          <caret line="408" selection-start-line="408" selection-end-line="408" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FANMEETING/FANMEETING.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-374">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FANMEETING/input.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JUMPGAME/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JUMPGAME/JUMPGAME.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WILDCARD/WILDCARD.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="6" column="20" lean-forward="true" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WILDCARD/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TRIANGLEPATH/TRIANGLEPATH.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="35" lean-forward="true" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TRIANGLEPATH/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIS/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LIS/LIS.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>

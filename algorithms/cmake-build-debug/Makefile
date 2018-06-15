@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E remove -f
+RM = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/dodo/Programming/algo-projects/algorithms/cmake-build-d
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named tree
+
+# Build rule for target.
+tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree
+.PHONY : tree
+
+# fast build rule for target.
+tree/fast:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
+.PHONY : tree/fast
+
+#=============================================================================
 # Target rules for targets named karatsuba
 
 # Build rule for target.
@@ -122,6 +135,33 @@ karatsuba: cmake_check_build_system
 karatsuba/fast:
 	$(MAKE) -f CMakeFiles/karatsuba.dir/build.make CMakeFiles/karatsuba.dir/build
 .PHONY : karatsuba/fast
+
+data_structure/tree.o: data_structure/tree.cpp.o
+
+.PHONY : data_structure/tree.o
+
+# target to build an object file
+data_structure/tree.cpp.o:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/data_structure/tree.cpp.o
+.PHONY : data_structure/tree.cpp.o
+
+data_structure/tree.i: data_structure/tree.cpp.i
+
+.PHONY : data_structure/tree.i
+
+# target to preprocess a source file
+data_structure/tree.cpp.i:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/data_structure/tree.cpp.i
+.PHONY : data_structure/tree.cpp.i
+
+data_structure/tree.s: data_structure/tree.cpp.s
+
+.PHONY : data_structure/tree.s
+
+# target to generate assembly for a file
+data_structure/tree.cpp.s:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/data_structure/tree.cpp.s
+.PHONY : data_structure/tree.cpp.s
 
 math/karatsuba.o: math/karatsuba.cpp.o
 
@@ -158,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... tree"
 	@echo "... karatsuba"
+	@echo "... data_structure/tree.o"
+	@echo "... data_structure/tree.i"
+	@echo "... data_structure/tree.s"
 	@echo "... math/karatsuba.o"
 	@echo "... math/karatsuba.i"
 	@echo "... math/karatsuba.s"

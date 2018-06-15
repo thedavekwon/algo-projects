@@ -1,0 +1,1 @@
+/usr/bin/clang++-5.0  -g -D_GLIBCXX_DEBUG  -rdynamic CMakeFiles/WILDCARD.dir/WILDCARD/WILDCARD.cpp.o  -o WILDCARD 
