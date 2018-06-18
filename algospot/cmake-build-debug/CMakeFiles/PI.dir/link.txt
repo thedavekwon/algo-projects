@@ -1,0 +1,1 @@
+/usr/bin/clang++-5.0  -g -D_GLIBCXX_DEBUG  -rdynamic CMakeFiles/PI.dir/PI/PI.cpp.o  -o PI 

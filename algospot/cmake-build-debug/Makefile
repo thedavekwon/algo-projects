@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -E remove -f
+RM = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/dodo/Programming/algo-projects/algospot/cmake-build-deb
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -109,6 +109,97 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named ASYMTILING
+
+# Build rule for target.
+ASYMTILING: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ASYMTILING
+.PHONY : ASYMTILING
+
+# fast build rule for target.
+ASYMTILING/fast:
+	$(MAKE) -f CMakeFiles/ASYMTILING.dir/build.make CMakeFiles/ASYMTILING.dir/build
+.PHONY : ASYMTILING/fast
+
+#=============================================================================
+# Target rules for targets named TRIPATHCNT
+
+# Build rule for target.
+TRIPATHCNT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TRIPATHCNT
+.PHONY : TRIPATHCNT
+
+# fast build rule for target.
+TRIPATHCNT/fast:
+	$(MAKE) -f CMakeFiles/TRIPATHCNT.dir/build.make CMakeFiles/TRIPATHCNT.dir/build
+.PHONY : TRIPATHCNT/fast
+
+#=============================================================================
+# Target rules for targets named TILING2
+
+# Build rule for target.
+TILING2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TILING2
+.PHONY : TILING2
+
+# fast build rule for target.
+TILING2/fast:
+	$(MAKE) -f CMakeFiles/TILING2.dir/build.make CMakeFiles/TILING2.dir/build
+.PHONY : TILING2/fast
+
+#=============================================================================
+# Target rules for targets named QUANTIZE
+
+# Build rule for target.
+QUANTIZE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 QUANTIZE
+.PHONY : QUANTIZE
+
+# fast build rule for target.
+QUANTIZE/fast:
+	$(MAKE) -f CMakeFiles/QUANTIZE.dir/build.make CMakeFiles/QUANTIZE.dir/build
+.PHONY : QUANTIZE/fast
+
+#=============================================================================
+# Target rules for targets named PI
+
+# Build rule for target.
+PI: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PI
+.PHONY : PI
+
+# fast build rule for target.
+PI/fast:
+	$(MAKE) -f CMakeFiles/PI.dir/build.make CMakeFiles/PI.dir/build
+.PHONY : PI/fast
+
+#=============================================================================
+# Target rules for targets named JLIS
+
+# Build rule for target.
+JLIS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 JLIS
+.PHONY : JLIS
+
+# fast build rule for target.
+JLIS/fast:
+	$(MAKE) -f CMakeFiles/JLIS.dir/build.make CMakeFiles/JLIS.dir/build
+.PHONY : JLIS/fast
+
+#=============================================================================
+# Target rules for targets named SNAIL
+
+# Build rule for target.
+SNAIL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SNAIL
+.PHONY : SNAIL
+
+# fast build rule for target.
+SNAIL/fast:
+	$(MAKE) -f CMakeFiles/SNAIL.dir/build.make CMakeFiles/SNAIL.dir/build
+.PHONY : SNAIL/fast
 
 #=============================================================================
 # Target rules for targets named BALLPAINTING
@@ -239,6 +330,33 @@ WILDCARD: cmake_check_build_system
 WILDCARD/fast:
 	$(MAKE) -f CMakeFiles/WILDCARD.dir/build.make CMakeFiles/WILDCARD.dir/build
 .PHONY : WILDCARD/fast
+
+ASYMTILING/ASYMTILING.o: ASYMTILING/ASYMTILING.cpp.o
+
+.PHONY : ASYMTILING/ASYMTILING.o
+
+# target to build an object file
+ASYMTILING/ASYMTILING.cpp.o:
+	$(MAKE) -f CMakeFiles/ASYMTILING.dir/build.make CMakeFiles/ASYMTILING.dir/ASYMTILING/ASYMTILING.cpp.o
+.PHONY : ASYMTILING/ASYMTILING.cpp.o
+
+ASYMTILING/ASYMTILING.i: ASYMTILING/ASYMTILING.cpp.i
+
+.PHONY : ASYMTILING/ASYMTILING.i
+
+# target to preprocess a source file
+ASYMTILING/ASYMTILING.cpp.i:
+	$(MAKE) -f CMakeFiles/ASYMTILING.dir/build.make CMakeFiles/ASYMTILING.dir/ASYMTILING/ASYMTILING.cpp.i
+.PHONY : ASYMTILING/ASYMTILING.cpp.i
+
+ASYMTILING/ASYMTILING.s: ASYMTILING/ASYMTILING.cpp.s
+
+.PHONY : ASYMTILING/ASYMTILING.s
+
+# target to generate assembly for a file
+ASYMTILING/ASYMTILING.cpp.s:
+	$(MAKE) -f CMakeFiles/ASYMTILING.dir/build.make CMakeFiles/ASYMTILING.dir/ASYMTILING/ASYMTILING.cpp.s
+.PHONY : ASYMTILING/ASYMTILING.cpp.s
 
 BALLPAINTING/BALLPAINTING.o: BALLPAINTING/BALLPAINTING.cpp.o
 
@@ -375,6 +493,33 @@ FENCE/FENCE.cpp.s:
 	$(MAKE) -f CMakeFiles/FENCE.dir/build.make CMakeFiles/FENCE.dir/FENCE/FENCE.cpp.s
 .PHONY : FENCE/FENCE.cpp.s
 
+JLIS/JLIS.o: JLIS/JLIS.cpp.o
+
+.PHONY : JLIS/JLIS.o
+
+# target to build an object file
+JLIS/JLIS.cpp.o:
+	$(MAKE) -f CMakeFiles/JLIS.dir/build.make CMakeFiles/JLIS.dir/JLIS/JLIS.cpp.o
+.PHONY : JLIS/JLIS.cpp.o
+
+JLIS/JLIS.i: JLIS/JLIS.cpp.i
+
+.PHONY : JLIS/JLIS.i
+
+# target to preprocess a source file
+JLIS/JLIS.cpp.i:
+	$(MAKE) -f CMakeFiles/JLIS.dir/build.make CMakeFiles/JLIS.dir/JLIS/JLIS.cpp.i
+.PHONY : JLIS/JLIS.cpp.i
+
+JLIS/JLIS.s: JLIS/JLIS.cpp.s
+
+.PHONY : JLIS/JLIS.s
+
+# target to generate assembly for a file
+JLIS/JLIS.cpp.s:
+	$(MAKE) -f CMakeFiles/JLIS.dir/build.make CMakeFiles/JLIS.dir/JLIS/JLIS.cpp.s
+.PHONY : JLIS/JLIS.cpp.s
+
 JUMPGAME/JUMPGAME.o: JUMPGAME/JUMPGAME.cpp.o
 
 .PHONY : JUMPGAME/JUMPGAME.o
@@ -429,6 +574,33 @@ LIS/LIS.cpp.s:
 	$(MAKE) -f CMakeFiles/LIS.dir/build.make CMakeFiles/LIS.dir/LIS/LIS.cpp.s
 .PHONY : LIS/LIS.cpp.s
 
+PI/PI.o: PI/PI.cpp.o
+
+.PHONY : PI/PI.o
+
+# target to build an object file
+PI/PI.cpp.o:
+	$(MAKE) -f CMakeFiles/PI.dir/build.make CMakeFiles/PI.dir/PI/PI.cpp.o
+.PHONY : PI/PI.cpp.o
+
+PI/PI.i: PI/PI.cpp.i
+
+.PHONY : PI/PI.i
+
+# target to preprocess a source file
+PI/PI.cpp.i:
+	$(MAKE) -f CMakeFiles/PI.dir/build.make CMakeFiles/PI.dir/PI/PI.cpp.i
+.PHONY : PI/PI.cpp.i
+
+PI/PI.s: PI/PI.cpp.s
+
+.PHONY : PI/PI.s
+
+# target to generate assembly for a file
+PI/PI.cpp.s:
+	$(MAKE) -f CMakeFiles/PI.dir/build.make CMakeFiles/PI.dir/PI/PI.cpp.s
+.PHONY : PI/PI.cpp.s
+
 QUADTREE/QUADTREE.o: QUADTREE/QUADTREE.cpp.o
 
 .PHONY : QUADTREE/QUADTREE.o
@@ -456,6 +628,87 @@ QUADTREE/QUADTREE.cpp.s:
 	$(MAKE) -f CMakeFiles/QUADTREE.dir/build.make CMakeFiles/QUADTREE.dir/QUADTREE/QUADTREE.cpp.s
 .PHONY : QUADTREE/QUADTREE.cpp.s
 
+QUANTIZE/QUANTIZE.o: QUANTIZE/QUANTIZE.cpp.o
+
+.PHONY : QUANTIZE/QUANTIZE.o
+
+# target to build an object file
+QUANTIZE/QUANTIZE.cpp.o:
+	$(MAKE) -f CMakeFiles/QUANTIZE.dir/build.make CMakeFiles/QUANTIZE.dir/QUANTIZE/QUANTIZE.cpp.o
+.PHONY : QUANTIZE/QUANTIZE.cpp.o
+
+QUANTIZE/QUANTIZE.i: QUANTIZE/QUANTIZE.cpp.i
+
+.PHONY : QUANTIZE/QUANTIZE.i
+
+# target to preprocess a source file
+QUANTIZE/QUANTIZE.cpp.i:
+	$(MAKE) -f CMakeFiles/QUANTIZE.dir/build.make CMakeFiles/QUANTIZE.dir/QUANTIZE/QUANTIZE.cpp.i
+.PHONY : QUANTIZE/QUANTIZE.cpp.i
+
+QUANTIZE/QUANTIZE.s: QUANTIZE/QUANTIZE.cpp.s
+
+.PHONY : QUANTIZE/QUANTIZE.s
+
+# target to generate assembly for a file
+QUANTIZE/QUANTIZE.cpp.s:
+	$(MAKE) -f CMakeFiles/QUANTIZE.dir/build.make CMakeFiles/QUANTIZE.dir/QUANTIZE/QUANTIZE.cpp.s
+.PHONY : QUANTIZE/QUANTIZE.cpp.s
+
+SNAIL/SNAIL.o: SNAIL/SNAIL.cpp.o
+
+.PHONY : SNAIL/SNAIL.o
+
+# target to build an object file
+SNAIL/SNAIL.cpp.o:
+	$(MAKE) -f CMakeFiles/SNAIL.dir/build.make CMakeFiles/SNAIL.dir/SNAIL/SNAIL.cpp.o
+.PHONY : SNAIL/SNAIL.cpp.o
+
+SNAIL/SNAIL.i: SNAIL/SNAIL.cpp.i
+
+.PHONY : SNAIL/SNAIL.i
+
+# target to preprocess a source file
+SNAIL/SNAIL.cpp.i:
+	$(MAKE) -f CMakeFiles/SNAIL.dir/build.make CMakeFiles/SNAIL.dir/SNAIL/SNAIL.cpp.i
+.PHONY : SNAIL/SNAIL.cpp.i
+
+SNAIL/SNAIL.s: SNAIL/SNAIL.cpp.s
+
+.PHONY : SNAIL/SNAIL.s
+
+# target to generate assembly for a file
+SNAIL/SNAIL.cpp.s:
+	$(MAKE) -f CMakeFiles/SNAIL.dir/build.make CMakeFiles/SNAIL.dir/SNAIL/SNAIL.cpp.s
+.PHONY : SNAIL/SNAIL.cpp.s
+
+TILING2/TILING2.o: TILING2/TILING2.cpp.o
+
+.PHONY : TILING2/TILING2.o
+
+# target to build an object file
+TILING2/TILING2.cpp.o:
+	$(MAKE) -f CMakeFiles/TILING2.dir/build.make CMakeFiles/TILING2.dir/TILING2/TILING2.cpp.o
+.PHONY : TILING2/TILING2.cpp.o
+
+TILING2/TILING2.i: TILING2/TILING2.cpp.i
+
+.PHONY : TILING2/TILING2.i
+
+# target to preprocess a source file
+TILING2/TILING2.cpp.i:
+	$(MAKE) -f CMakeFiles/TILING2.dir/build.make CMakeFiles/TILING2.dir/TILING2/TILING2.cpp.i
+.PHONY : TILING2/TILING2.cpp.i
+
+TILING2/TILING2.s: TILING2/TILING2.cpp.s
+
+.PHONY : TILING2/TILING2.s
+
+# target to generate assembly for a file
+TILING2/TILING2.cpp.s:
+	$(MAKE) -f CMakeFiles/TILING2.dir/build.make CMakeFiles/TILING2.dir/TILING2/TILING2.cpp.s
+.PHONY : TILING2/TILING2.cpp.s
+
 TRIANGLEPATH/TRIANGLEPATH.o: TRIANGLEPATH/TRIANGLEPATH.cpp.o
 
 .PHONY : TRIANGLEPATH/TRIANGLEPATH.o
@@ -482,6 +735,33 @@ TRIANGLEPATH/TRIANGLEPATH.s: TRIANGLEPATH/TRIANGLEPATH.cpp.s
 TRIANGLEPATH/TRIANGLEPATH.cpp.s:
 	$(MAKE) -f CMakeFiles/TRIANGLEPATH.dir/build.make CMakeFiles/TRIANGLEPATH.dir/TRIANGLEPATH/TRIANGLEPATH.cpp.s
 .PHONY : TRIANGLEPATH/TRIANGLEPATH.cpp.s
+
+TRIPATHCNT/TRIPATHCNT.o: TRIPATHCNT/TRIPATHCNT.cpp.o
+
+.PHONY : TRIPATHCNT/TRIPATHCNT.o
+
+# target to build an object file
+TRIPATHCNT/TRIPATHCNT.cpp.o:
+	$(MAKE) -f CMakeFiles/TRIPATHCNT.dir/build.make CMakeFiles/TRIPATHCNT.dir/TRIPATHCNT/TRIPATHCNT.cpp.o
+.PHONY : TRIPATHCNT/TRIPATHCNT.cpp.o
+
+TRIPATHCNT/TRIPATHCNT.i: TRIPATHCNT/TRIPATHCNT.cpp.i
+
+.PHONY : TRIPATHCNT/TRIPATHCNT.i
+
+# target to preprocess a source file
+TRIPATHCNT/TRIPATHCNT.cpp.i:
+	$(MAKE) -f CMakeFiles/TRIPATHCNT.dir/build.make CMakeFiles/TRIPATHCNT.dir/TRIPATHCNT/TRIPATHCNT.cpp.i
+.PHONY : TRIPATHCNT/TRIPATHCNT.cpp.i
+
+TRIPATHCNT/TRIPATHCNT.s: TRIPATHCNT/TRIPATHCNT.cpp.s
+
+.PHONY : TRIPATHCNT/TRIPATHCNT.s
+
+# target to generate assembly for a file
+TRIPATHCNT/TRIPATHCNT.cpp.s:
+	$(MAKE) -f CMakeFiles/TRIPATHCNT.dir/build.make CMakeFiles/TRIPATHCNT.dir/TRIPATHCNT/TRIPATHCNT.cpp.s
+.PHONY : TRIPATHCNT/TRIPATHCNT.cpp.s
 
 WILDCARD/WILDCARD.o: WILDCARD/WILDCARD.cpp.o
 
@@ -517,6 +797,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... ASYMTILING"
+	@echo "... TRIPATHCNT"
+	@echo "... TILING2"
+	@echo "... QUANTIZE"
+	@echo "... PI"
+	@echo "... JLIS"
+	@echo "... SNAIL"
 	@echo "... BALLPAINTING"
 	@echo "... FENCE"
 	@echo "... FANMEETING"
@@ -528,6 +815,9 @@ help:
 	@echo "... TRIANGLEPATH"
 	@echo "... COINS"
 	@echo "... WILDCARD"
+	@echo "... ASYMTILING/ASYMTILING.o"
+	@echo "... ASYMTILING/ASYMTILING.i"
+	@echo "... ASYMTILING/ASYMTILING.s"
 	@echo "... BALLPAINTING/BALLPAINTING.o"
 	@echo "... BALLPAINTING/BALLPAINTING.i"
 	@echo "... BALLPAINTING/BALLPAINTING.s"
@@ -543,18 +833,36 @@ help:
 	@echo "... FENCE/FENCE.o"
 	@echo "... FENCE/FENCE.i"
 	@echo "... FENCE/FENCE.s"
+	@echo "... JLIS/JLIS.o"
+	@echo "... JLIS/JLIS.i"
+	@echo "... JLIS/JLIS.s"
 	@echo "... JUMPGAME/JUMPGAME.o"
 	@echo "... JUMPGAME/JUMPGAME.i"
 	@echo "... JUMPGAME/JUMPGAME.s"
 	@echo "... LIS/LIS.o"
 	@echo "... LIS/LIS.i"
 	@echo "... LIS/LIS.s"
+	@echo "... PI/PI.o"
+	@echo "... PI/PI.i"
+	@echo "... PI/PI.s"
 	@echo "... QUADTREE/QUADTREE.o"
 	@echo "... QUADTREE/QUADTREE.i"
 	@echo "... QUADTREE/QUADTREE.s"
+	@echo "... QUANTIZE/QUANTIZE.o"
+	@echo "... QUANTIZE/QUANTIZE.i"
+	@echo "... QUANTIZE/QUANTIZE.s"
+	@echo "... SNAIL/SNAIL.o"
+	@echo "... SNAIL/SNAIL.i"
+	@echo "... SNAIL/SNAIL.s"
+	@echo "... TILING2/TILING2.o"
+	@echo "... TILING2/TILING2.i"
+	@echo "... TILING2/TILING2.s"
 	@echo "... TRIANGLEPATH/TRIANGLEPATH.o"
 	@echo "... TRIANGLEPATH/TRIANGLEPATH.i"
 	@echo "... TRIANGLEPATH/TRIANGLEPATH.s"
+	@echo "... TRIPATHCNT/TRIPATHCNT.o"
+	@echo "... TRIPATHCNT/TRIPATHCNT.i"
+	@echo "... TRIPATHCNT/TRIPATHCNT.s"
 	@echo "... WILDCARD/WILDCARD.o"
 	@echo "... WILDCARD/WILDCARD.i"
 	@echo "... WILDCARD/WILDCARD.s"

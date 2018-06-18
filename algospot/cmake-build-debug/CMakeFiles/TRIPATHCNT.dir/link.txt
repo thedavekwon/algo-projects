@@ -1,0 +1,1 @@
+/usr/bin/clang++-5.0  -g -D_GLIBCXX_DEBUG  -rdynamic CMakeFiles/TRIPATHCNT.dir/TRIPATHCNT/TRIPATHCNT.cpp.o  -o TRIPATHCNT 

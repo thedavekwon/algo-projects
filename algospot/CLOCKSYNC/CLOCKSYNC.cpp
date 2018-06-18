@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int solve_r(int idx, int cnt);
+double solve_r(int idx, int cnt);
 void push(int button);
 bool check_done();
 void print_clocks();
@@ -44,7 +44,7 @@ int main() {
     }
 }
 
-int solve_r(int idx, int cnt) {
+double solve_r(int idx, int cnt) {
     //print_clocks();
     if (check_done()) return cnt;
     if (idx == 10) return 987654321;

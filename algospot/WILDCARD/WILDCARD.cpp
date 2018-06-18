@@ -12,7 +12,7 @@ vector<string> words;
 string word;
 int dp[101][101];
 
-int solve_r(int m, int n) {
+double solve_r(int m, int n) {
     //cout << m << ',' << n << endl;
     if (m == pattern.length() && n == word.length()) return 1;
     int &ret = dp[m][n];

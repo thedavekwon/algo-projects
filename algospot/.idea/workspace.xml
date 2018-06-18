@@ -2,16 +2,23 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="algospot" targetName="BALLPAINTING" />
-      <config projectName="algospot" targetName="FANMEETING" />
-      <config projectName="algospot" targetName="JUMPGAME" />
-      <config projectName="algospot" targetName="TRIANGLEPATH" />
-      <config projectName="algospot" targetName="COINS" />
-      <config projectName="algospot" targetName="CLOCKSYNC" />
       <config projectName="algospot" targetName="FENCE" />
-      <config projectName="algospot" targetName="QUADTREE" />
+      <config projectName="algospot" targetName="TILING2" />
       <config projectName="algospot" targetName="LIS" />
+      <config projectName="algospot" targetName="SNAIL" />
+      <config projectName="algospot" targetName="ASYMTILING" />
+      <config projectName="algospot" targetName="PI" />
+      <config projectName="algospot" targetName="QUANTIZE" />
+      <config projectName="algospot" targetName="TRIANGLEPATH" />
+      <config projectName="algospot" targetName="JLIS" />
+      <config projectName="algospot" targetName="QUADTREE" />
+      <config projectName="algospot" targetName="JUMPGAME" />
+      <config projectName="algospot" targetName="FANMEETING" />
       <config projectName="algospot" targetName="WILDCARD" />
+      <config projectName="algospot" targetName="CLOCKSYNC" />
+      <config projectName="algospot" targetName="COINS" />
+      <config projectName="algospot" targetName="BALLPAINTING" />
+      <config projectName="algospot" targetName="TRIPATHCNT" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -35,11 +42,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LIS.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LIS/LIS.cpp">
+      <file leaf-file-name="ASYMTILING.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ASYMTILING/ASYMTILING.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="158">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +99,20 @@
         <option value="$PROJECT_DIR$/TRIANGLEPATH/TRIANGLEPATH.cpp" />
         <option value="$PROJECT_DIR$/LIS/input.txt" />
         <option value="$PROJECT_DIR$/LIS/LIS.cpp" />
+        <option value="$PROJECT_DIR$/JLIS/input.txt" />
+        <option value="$PROJECT_DIR$/JLIS/JLIS.cpp" />
+        <option value="$PROJECT_DIR$/PI/input.txt" />
+        <option value="$PROJECT_DIR$/PI/PI.cpp" />
+        <option value="$PROJECT_DIR$/QUANTIZE/QUANTIZE.cpp" />
+        <option value="$PROJECT_DIR$/QUANTIZE/input.txt" />
+        <option value="$PROJECT_DIR$/TILING2/TILING2.cpp" />
+        <option value="$PROJECT_DIR$/TILING2/input.txt" />
+        <option value="$PROJECT_DIR$/TRIPATHCNT/input.txt" />
+        <option value="$PROJECT_DIR$/TRIPATHCNT/TRIPATHCNT.cpp" />
+        <option value="$PROJECT_DIR$/SNAIL/SNAIL.cpp" />
+        <option value="$PROJECT_DIR$/SNAIL/input.txt" />
+        <option value="$PROJECT_DIR$/ASYMTILING/input.txt" />
+        <option value="$PROJECT_DIR$/ASYMTILING/ASYMTILING.cpp" />
       </list>
     </option>
   </component>
@@ -111,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,13 +146,12 @@
             <path>
               <item name="algospot" type="b2602c69:ProjectViewProjectNode" />
               <item name="algospot" type="462c0819:PsiDirectoryNode" />
-              <item name="LIS" type="462c0819:PsiDirectoryNode" />
+              <item name="ASYMTILING" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,27 +174,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LIS">
-    <configuration name="BALLPAINTING" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/BALLPAINTING" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="BALLPAINTING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
-    <configuration name="CLOCKSYNC" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="CLOCKSYNC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
-    <configuration name="COINS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/COINS" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="COINS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
-    <configuration name="FANMEETING" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/FANMEETING" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="FANMEETING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
-    <configuration name="FENCE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/FENCE" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="FENCE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
-    <configuration name="JUMPGAME" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/JUMPGAME" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="JUMPGAME" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
-    <configuration name="LIS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/LIS" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="LIS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="LIS" />
-    <configuration name="QUADTREE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="QUADTREE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="TRIANGLEPATH" />
-    <configuration name="TRIANGLEPATH" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/TRIANGLEPATH" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="TRIANGLEPATH" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="TRIANGLEPATH" />
+  <component name="RunManager" selected="Application.SNAIL">
+    <configuration name="ASYMTILING" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="ASYMTILING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="ASYMTILING" />
+    <configuration name="BALLPAINTING" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/BALLPAINTING" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="BALLPAINTING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="CLOCKSYNC" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="CLOCKSYNC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="COINS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/COINS" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="COINS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="FANMEETING" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/FANMEETING" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="FANMEETING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="FENCE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/FENCE" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="FENCE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="JLIS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/JLIS" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="JLIS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="JUMPGAME" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/JUMPGAME" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="JUMPGAME" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="LIS" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/LIS" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="LIS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="PI" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/PI" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="PI" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="QUADTREE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="QUADTREE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="QUANTIZE" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/QUANTIZE" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="QUANTIZE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="SNAIL" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/SNAIL" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="SNAIL" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="SNAIL" />
+    <configuration name="TILING2" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/TILING2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="TILING2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="TRIPATHCNT" />
+    <configuration name="TRIANGLEPATH" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/TRIANGLEPATH" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="TRIANGLEPATH" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="TRIPATHCNT" />
+    <configuration name="TRIPATHCNT" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/TRIPATHCNT" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="TRIPATHCNT" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="TRIPATHCNT" />
     <configuration name="WILDCARD" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/WILDCARD" PASS_PARENT_ENVS_2="true" PROJECT_NAME="algospot" TARGET_NAME="TRIANGLEPATH" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="algospot" RUN_TARGET_NAME="TRIANGLEPATH" />
     <list>
+      <item itemvalue="Application.ASYMTILING" />
       <item itemvalue="Application.BALLPAINTING" />
       <item itemvalue="Application.CLOCKSYNC" />
       <item itemvalue="Application.COINS" />
       <item itemvalue="Application.FANMEETING" />
       <item itemvalue="Application.FENCE" />
+      <item itemvalue="Application.JLIS" />
       <item itemvalue="Application.JUMPGAME" />
       <item itemvalue="Application.LIS" />
+      <item itemvalue="Application.PI" />
       <item itemvalue="Application.QUADTREE" />
+      <item itemvalue="Application.QUANTIZE" />
+      <item itemvalue="Application.SNAIL" />
+      <item itemvalue="Application.TILING2" />
       <item itemvalue="Application.TRIANGLEPATH" />
+      <item itemvalue="Application.TRIPATHCNT" />
       <item itemvalue="Application.WILDCARD" />
     </list>
   </component>
@@ -202,11 +240,16 @@
       <workItem from="1528950074144" duration="8415000" />
       <workItem from="1528992735828" duration="34000" />
       <workItem from="1529045438747" duration="894000" />
+      <workItem from="1529076640220" duration="7275000" />
+      <workItem from="1529148830034" duration="26000" />
+      <workItem from="1529161977137" duration="7997000" />
+      <workItem from="1529174562119" duration="1715000" />
+      <workItem from="1529221564334" duration="4006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42502000" />
+    <option name="totallyTimeSpent" value="63521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,47 +261,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49714828" visible="true" weight="0.18408488" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49496645" visible="true" weight="0.18408488" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298479" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32645035" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.3298479" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50132626" side_tool="true" weight="0.32887402" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41583055" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41396263" />
       <window_info id="Structure" order="1" sideWeight="0.5035461" side_tool="true" weight="0.303125" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49867374" weight="0.32887402" />
-      <window_info id="Favorites" order="2" sideWeight="0.5028517" side_tool="true" weight="0.303125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3979933" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49867374" visible="true" weight="0.32743362" />
+      <window_info id="Favorites" order="2" sideWeight="0.50503355" side_tool="true" weight="0.18408488" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39687848" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3277592" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4169125" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49714828" visible="true" weight="0.3087533" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41396263" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49714828" visible="true" weight="0.18408488" />
       <window_info id="Structure" order="1" sideWeight="0.5035461" side_tool="true" weight="0.303125" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298479" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32939914" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39823008" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3284169" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947917" weight="0.32940018" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.3298479" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39687848" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32645035" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49867374" weight="0.32743362" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50132626" side_tool="true" weight="0.32887402" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3298479" />
       <window_info id="Favorites" order="2" sideWeight="0.5028517" side_tool="true" weight="0.303125" />
     </layout-to-restore>
@@ -274,111 +317,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="35" />
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9416">
-          <caret line="428" selection-start-line="428" selection-end-line="428" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18722">
-          <caret line="851" selection-start-line="851" selection-end-line="851" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FANMEETING/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BALLPAINTING/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BALLPAINTING/BALLPAINTING.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BALLPAINTING/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BALLPAINTING/BALLPAINTING.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BALLPAINTING/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BALLPAINTING/BALLPAINTING.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QUADTREE/QUADTREE.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CLOCKSYNC/CLOCKSYNC.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CLOCKSYNC/CLOCKSYNC.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -506,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5.4.0/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="851" selection-start-line="851" selection-end-line="851" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9416">
@@ -604,6 +539,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JLIS/JLIS.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JLIS/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/c++/5.4.0/bits/c++config.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="428" selection-start-line="428" selection-end-line="428" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5.4.0/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="851" selection-start-line="851" selection-end-line="851" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PI/PI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="98" column="1" lean-forward="true" selection-end-line="98" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PI/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="50" column="7608" selection-start-line="50" selection-start-column="7608" selection-end-line="50" selection-end-column="7608" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QUANTIZE/QUANTIZE.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QUANTIZE/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TILING2/TILING2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="23" lean-forward="true" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TILING2/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TRIPATHCNT/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TRIPATHCNT/TRIPATHCNT.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SNAIL/SNAIL.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SNAIL/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASYMTILING/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ASYMTILING/ASYMTILING.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang-5.0 -DCMAKE_CXX_COMPILER=/usr/bin/clang++-5.0 -G "CodeBlocks - Unix Makefiles" /home/dodo/Programming/algo-projects/baekjoon
+/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang-5.0 -DCMAKE_CXX_COMPILER=/usr/bin/clang++-5.0 -G "CodeBlocks - Unix Makefiles" /home/dodo/Programming/algo-projects/baekjoon
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/dodo/Programming/algo-projects/baekjoon/cmake-build-debug

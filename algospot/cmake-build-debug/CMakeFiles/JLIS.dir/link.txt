@@ -1,0 +1,1 @@
+/usr/bin/clang++-5.0  -g -D_GLIBCXX_DEBUG  -rdynamic CMakeFiles/JLIS.dir/JLIS/JLIS.cpp.o  -o JLIS 

@@ -18,7 +18,7 @@ void pprint() {
     cout << endl;
 }
 
-int solve_r(int i, int j) {
+double solve_r(int i, int j) {
     if (i == n) return 0;
     int &ret = dp[i][j];
     if (ret != -1) return ret;

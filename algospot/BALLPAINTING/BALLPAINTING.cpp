@@ -6,7 +6,7 @@ using namespace std;
 int N;
 int dp[3][1001];
 
-int solve_r(int row, int col) {
+double solve_r(int row, int col) {
 
 }
 

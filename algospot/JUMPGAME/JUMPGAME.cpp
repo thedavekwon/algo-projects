@@ -8,7 +8,7 @@ int n;
 int board[101][101];
 int dp[101][101];
 
-int solve_r(int i, int j) {
+double solve_r(int i, int j) {
     if (i == n-1 && j == n-1) return 1;
     int &ret = dp[i][j];
     if (ret != -1) return ret;

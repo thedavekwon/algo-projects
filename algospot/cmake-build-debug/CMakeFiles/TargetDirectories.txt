@@ -1,4 +1,11 @@
 /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/ASYMTILING.dir
+/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/TRIPATHCNT.dir
+/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/TILING2.dir
+/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/QUANTIZE.dir
+/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/PI.dir
+/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/JLIS.dir
+/home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/SNAIL.dir
 /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/BALLPAINTING.dir
 /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/FENCE.dir
 /home/dodo/Programming/algo-projects/algospot/cmake-build-debug/CMakeFiles/FANMEETING.dir

@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -E remove -f
+RM = /home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/dodo/Programming/algo-projects/algorithms/cmake-build-d
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.26/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/dodo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tree
-
-# Build rule for target.
-tree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree
-.PHONY : tree
-
-# fast build rule for target.
-tree/fast:
-	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
-.PHONY : tree/fast
-
-#=============================================================================
 # Target rules for targets named karatsuba
 
 # Build rule for target.
@@ -135,6 +122,32 @@ karatsuba: cmake_check_build_system
 karatsuba/fast:
 	$(MAKE) -f CMakeFiles/karatsuba.dir/build.make CMakeFiles/karatsuba.dir/build
 .PHONY : karatsuba/fast
+
+#=============================================================================
+# Target rules for targets named mean_error_square
+
+# Build rule for target.
+mean_error_square: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mean_error_square
+.PHONY : mean_error_square
+
+# fast build rule for target.
+mean_error_square/fast:
+	$(MAKE) -f CMakeFiles/mean_error_square.dir/build.make CMakeFiles/mean_error_square.dir/build
+.PHONY : mean_error_square/fast
+
+#=============================================================================
+# Target rules for targets named tree
+
+# Build rule for target.
+tree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree
+.PHONY : tree
+
+# fast build rule for target.
+tree/fast:
+	$(MAKE) -f CMakeFiles/tree.dir/build.make CMakeFiles/tree.dir/build
+.PHONY : tree/fast
 
 data_structure/tree.o: data_structure/tree.cpp.o
 
@@ -190,6 +203,33 @@ math/karatsuba.cpp.s:
 	$(MAKE) -f CMakeFiles/karatsuba.dir/build.make CMakeFiles/karatsuba.dir/math/karatsuba.cpp.s
 .PHONY : math/karatsuba.cpp.s
 
+math/mean_error_square.o: math/mean_error_square.cpp.o
+
+.PHONY : math/mean_error_square.o
+
+# target to build an object file
+math/mean_error_square.cpp.o:
+	$(MAKE) -f CMakeFiles/mean_error_square.dir/build.make CMakeFiles/mean_error_square.dir/math/mean_error_square.cpp.o
+.PHONY : math/mean_error_square.cpp.o
+
+math/mean_error_square.i: math/mean_error_square.cpp.i
+
+.PHONY : math/mean_error_square.i
+
+# target to preprocess a source file
+math/mean_error_square.cpp.i:
+	$(MAKE) -f CMakeFiles/mean_error_square.dir/build.make CMakeFiles/mean_error_square.dir/math/mean_error_square.cpp.i
+.PHONY : math/mean_error_square.cpp.i
+
+math/mean_error_square.s: math/mean_error_square.cpp.s
+
+.PHONY : math/mean_error_square.s
+
+# target to generate assembly for a file
+math/mean_error_square.cpp.s:
+	$(MAKE) -f CMakeFiles/mean_error_square.dir/build.make CMakeFiles/mean_error_square.dir/math/mean_error_square.cpp.s
+.PHONY : math/mean_error_square.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -197,15 +237,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... tree"
 	@echo "... karatsuba"
+	@echo "... mean_error_square"
+	@echo "... tree"
+	@echo "... edit_cache"
 	@echo "... data_structure/tree.o"
 	@echo "... data_structure/tree.i"
 	@echo "... data_structure/tree.s"
 	@echo "... math/karatsuba.o"
 	@echo "... math/karatsuba.i"
 	@echo "... math/karatsuba.s"
+	@echo "... math/mean_error_square.o"
+	@echo "... math/mean_error_square.i"
+	@echo "... math/mean_error_square.s"
 .PHONY : help
 
 

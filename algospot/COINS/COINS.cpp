@@ -23,7 +23,7 @@ void pprint() {
     cout << endl;
 }
 
-int solve_r(int price, int coin) {
+double solve_r(int price, int coin) {
 //    cout << price <<',' << coin << endl;
     int &ret = dp[price][coin];
     if (ret != -1) return ret;

@@ -6,7 +6,7 @@ using namespace std;
 int N;
 int heights[20001];
 
-int solve_r(int start, int end) {
+double solve_r(int start, int end) {
     if (start == end) return heights[start];
     int mid = (start + end) / 2;
 
