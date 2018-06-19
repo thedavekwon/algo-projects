@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/674.dir/674/674.cpp.o"
+  "CMakeFiles/674.dir/674/674.cpp.obj"
   "674.pdb"
-  "674"
+  "674.exe"
+  "674.exe.manifest"
+  "lib674.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

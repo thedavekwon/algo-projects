@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/CLionProjects/algo-projects/uva/10911/10911.cpp
+iostream
+-
+fstream
+-
+cstring
+-
+cmath
+-
+bitset
+-
+limits
+-
+iomanip
+-
+

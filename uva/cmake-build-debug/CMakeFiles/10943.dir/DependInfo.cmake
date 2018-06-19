@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dodo/Programming/algo-projects/uva/10943/10943.cpp" "/home/dodo/Programming/algo-projects/uva/cmake-build-debug/CMakeFiles/10943.dir/10943/10943.cpp.o"
+  "C:/Users/Administrator/CLionProjects/algo-projects/uva/10943/10943.cpp" "C:/Users/Administrator/CLionProjects/algo-projects/uva/cmake-build-debug/CMakeFiles/10943.dir/10943/10943.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

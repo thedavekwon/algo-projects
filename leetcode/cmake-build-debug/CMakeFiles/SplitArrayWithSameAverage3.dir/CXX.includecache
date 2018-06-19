@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/CLionProjects/algo-projects/leetcode/805/SplitArrayWithSameAverage3.cpp
+iostream
+-
+vector
+-
+numeric
+-
+fstream
+-
+algorithm
+-
+cstring
+-
+
