@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/karatsuba.dir/math/karatsuba.cpp.o"
+  "CMakeFiles/karatsuba.dir/math/karatsuba.cpp.obj"
   "karatsuba.pdb"
-  "karatsuba"
+  "karatsuba.exe"
+  "karatsuba.exe.manifest"
+  "libkaratsuba.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

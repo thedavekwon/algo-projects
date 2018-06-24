@@ -56,38 +56,38 @@ include CMakeFiles/answer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/answer.dir/flags.make
 
-CMakeFiles/answer.dir/507/answer.cpp.obj: CMakeFiles/answer.dir/flags.make
-CMakeFiles/answer.dir/507/answer.cpp.obj: ../507/answer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\CLionProjects\algo-projects\uva\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/answer.dir/507/answer.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\answer.dir\507\answer.cpp.obj -c C:\Users\Administrator\CLionProjects\algo-projects\uva\507\answer.cpp
+CMakeFiles/answer.dir/00507/answer.cpp.obj: CMakeFiles/answer.dir/flags.make
+CMakeFiles/answer.dir/00507/answer.cpp.obj: ../00507/answer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\CLionProjects\algo-projects\uva\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/answer.dir/00507/answer.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\answer.dir\00507\answer.cpp.obj -c C:\Users\Administrator\CLionProjects\algo-projects\uva\00507\answer.cpp
 
-CMakeFiles/answer.dir/507/answer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/answer.dir/507/answer.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\CLionProjects\algo-projects\uva\507\answer.cpp > CMakeFiles\answer.dir\507\answer.cpp.i
+CMakeFiles/answer.dir/00507/answer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/answer.dir/00507/answer.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\CLionProjects\algo-projects\uva\00507\answer.cpp > CMakeFiles\answer.dir\00507\answer.cpp.i
 
-CMakeFiles/answer.dir/507/answer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/answer.dir/507/answer.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\CLionProjects\algo-projects\uva\507\answer.cpp -o CMakeFiles\answer.dir\507\answer.cpp.s
+CMakeFiles/answer.dir/00507/answer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/answer.dir/00507/answer.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\CLionProjects\algo-projects\uva\00507\answer.cpp -o CMakeFiles\answer.dir\00507\answer.cpp.s
 
-CMakeFiles/answer.dir/507/answer.cpp.obj.requires:
+CMakeFiles/answer.dir/00507/answer.cpp.obj.requires:
 
-.PHONY : CMakeFiles/answer.dir/507/answer.cpp.obj.requires
+.PHONY : CMakeFiles/answer.dir/00507/answer.cpp.obj.requires
 
-CMakeFiles/answer.dir/507/answer.cpp.obj.provides: CMakeFiles/answer.dir/507/answer.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\answer.dir\build.make CMakeFiles/answer.dir/507/answer.cpp.obj.provides.build
-.PHONY : CMakeFiles/answer.dir/507/answer.cpp.obj.provides
+CMakeFiles/answer.dir/00507/answer.cpp.obj.provides: CMakeFiles/answer.dir/00507/answer.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\answer.dir\build.make CMakeFiles/answer.dir/00507/answer.cpp.obj.provides.build
+.PHONY : CMakeFiles/answer.dir/00507/answer.cpp.obj.provides
 
-CMakeFiles/answer.dir/507/answer.cpp.obj.provides.build: CMakeFiles/answer.dir/507/answer.cpp.obj
+CMakeFiles/answer.dir/00507/answer.cpp.obj.provides.build: CMakeFiles/answer.dir/00507/answer.cpp.obj
 
 
 # Object files for target answer
 answer_OBJECTS = \
-"CMakeFiles/answer.dir/507/answer.cpp.obj"
+"CMakeFiles/answer.dir/00507/answer.cpp.obj"
 
 # External object files for target answer
 answer_EXTERNAL_OBJECTS =
 
-answer.exe: CMakeFiles/answer.dir/507/answer.cpp.obj
+answer.exe: CMakeFiles/answer.dir/00507/answer.cpp.obj
 answer.exe: CMakeFiles/answer.dir/build.make
 answer.exe: CMakeFiles/answer.dir/linklibs.rsp
 answer.exe: CMakeFiles/answer.dir/objects1.rsp
@@ -100,7 +100,7 @@ CMakeFiles/answer.dir/build: answer.exe
 
 .PHONY : CMakeFiles/answer.dir/build
 
-CMakeFiles/answer.dir/requires: CMakeFiles/answer.dir/507/answer.cpp.obj.requires
+CMakeFiles/answer.dir/requires: CMakeFiles/answer.dir/00507/answer.cpp.obj.requires
 
 .PHONY : CMakeFiles/answer.dir/requires
 

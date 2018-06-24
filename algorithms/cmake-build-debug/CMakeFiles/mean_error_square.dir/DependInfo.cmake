@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dodo/Programming/algo-projects/algorithms/math/mean_error_square.cpp" "/home/dodo/Programming/algo-projects/algorithms/cmake-build-debug/CMakeFiles/mean_error_square.dir/math/mean_error_square.cpp.o"
+  "C:/Users/Administrator/CLionProjects/algo-projects/algorithms/math/mean_error_square.cpp" "C:/Users/Administrator/CLionProjects/algo-projects/algorithms/cmake-build-debug/CMakeFiles/mean_error_square.dir/math/mean_error_square.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tree.dir/data_structure/tree.cpp.o"
+  "CMakeFiles/tree.dir/data_structure/tree.cpp.obj"
   "tree.pdb"
-  "tree"
+  "tree.exe"
+  "tree.exe.manifest"
+  "libtree.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

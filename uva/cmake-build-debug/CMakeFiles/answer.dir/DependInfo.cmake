@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Administrator/CLionProjects/algo-projects/uva/507/answer.cpp" "C:/Users/Administrator/CLionProjects/algo-projects/uva/cmake-build-debug/CMakeFiles/answer.dir/507/answer.cpp.obj"
+  "C:/Users/Administrator/CLionProjects/algo-projects/uva/00507/answer.cpp" "C:/Users/Administrator/CLionProjects/algo-projects/uva/cmake-build-debug/CMakeFiles/answer.dir/00507/answer.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
