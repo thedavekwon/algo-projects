@@ -12,26 +12,28 @@ int main() {
     int n, k;
     cin >> n >> k;
     
-    vector<int> nums;
-    nums.reserve(n);
+    vector<int> nums(n);
+    vector<long long> sums;
     
     for (int i = 0; i < n; i++) {
         int t;
         cin >> t;
-        nums.push_back(t);
+        nums[i] = t;
     }
-    
-    sort(nums.begin(), nums.end());
-    long long cost1 = 0;
-    long long cost2 = 0;
-    long long cost = 0;
-    if (n > k) {
-        
-    
-    } else {
-        for (int i = 0; i < n; i ++) {
-            cost = cost + (i+1)*nums[i];
-        }
+
+    long long sum = 0;
+    for (int i = n-1; i >= 0; i--) {
+        sum = sum + nums[i];
+        if (i > 0) sums.push_back(sum);
     }
-    cout << cost << endl;
+
+    long long ret = sum;
+    
+    sort(sums.begin(), sums.end());
+    reverse(sums.begin(), sums.end());
+
+    for (int i = 0; i < k-1; i++) {
+        ret = ret + sums[i];
+    }
+    cout << ret << endl;
 }
