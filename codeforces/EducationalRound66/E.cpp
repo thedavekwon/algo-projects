@@ -1,9 +1,37 @@
+// inspired by the solution on blog
+
 #include <iostream>
 #include <fstream>
+#include <utility>
+#include <vector>
+#include <algorithm>
+#include <numeric>
 
 using namespace std;
 
-void visit(vector<int> &visited, const vector<int> &left, const vector<int> &right, int &idx, int &cnt,const int &m);
+const int N = 500 * 1000 + 13;
+pair<int, int> p[N];
+
+
+pair<int, int> intervals[N];
+pair<int, int> queries[N];
+    
+int prec[N];
+int ans[N];
+
+
+pair<int, int> get(int x, int r){
+	if (x == -1)
+		return make_pair(-1, -1);
+	if (intervals[x].second >= r)
+		return make_pair(x, 0);
+	auto res = get(p[x].first, r);
+	if (res.first == -1)
+		p[x] = make_pair(-1, -1);
+	else
+		p[x] = make_pair(res.first, p[x].second + res.second);
+	return p[x];
+}
 
 int main() {
     ifstream in("./E.input");
@@ -11,62 +39,49 @@ int main() {
 
     int n, m;
     cin >> n >> m;
-
-    vector<int> lefts(n);
-    vector<int> rights(n);
-    int min_left = 987654321;
-    int max_right = -1;
     
-
     for (int i = 0; i < n; i++) {
         int l, r;
         cin >> l >> r;
-        lefts[i] = l;
-        rights[i] = r;
-        
-        min_left = min(min_left, l);
-        max_right = max(max_right, r);
+        intervals[i] = make_pair(l, r);
     }
-
-    while (m--) {
+    
+    for (int i = 0; i < m; i++) {
         int l, r;
         cin >> l >> r;
-        if (l < min_left || r > max_right) {
-            cout << -1 << endl;
-            continue;
-        }
-        vector<int> visited(max_right, 0);
-        for (int i = l; i <= r; i++) {
-            visited[i] = 1;
-        }
-        visit(visited, -1, 0, m);
+        queries[i] = make_pair(l, r);
     }
-}
-
-bool check(vector<int> &visited) {
-    for (int i = 0; i < visited.size(); i++) {
-        if (visisted[i] == 1) return false;
+    
+    sort(intervals, intervals+n);
+    
+    // precalculate points that can be reached with the intervals greedly 
+    int idx = 0;
+    pair<int, int> mx(0, -1);
+    for (int i = 0; i < N; i++) {
+        while (idx < n && intervals[idx].first == i){
+			mx = max(mx, make_pair(intervals[idx].second, idx));
+			++idx;
+		}
+		prec[i] = (mx.first <= i ? -1 : mx.second);
     }
-    return true;
-}
-
-void mark(vector<int> &visited, const int l, const int r, bool reverse) {
-    for (int i = l; i <= r; i++) {
-        if (visited[i] == 0) continue;
-        if (reverse) visited[i] = 1;
-        else visited[i] = 2;
-    }
-    return;
-}
-
-void visit(vector<int> &visited, const vector<int> &left, const vector<int> &right, int &idx, int &cnt,const int &m) {
-    if (check(visited)) return cnt;
-    if (idx == i)
-    int ret = 0;
-    for (int i = idx+1; i < m, i++) {
-        mark(visited, left[i], right[i], false);
-        ret = min(ret, visit(visited, left, right, i, cnt+1, m))
-        mark(visited, left[i], right[i], true);
-    }
-    return ret;
+    
+    vector<int> perm(m);
+    iota(perm.begin(), perm.end(), 0);
+    sort(perm.begin(), perm.end(), [](int a, int b) {
+		return queries[a].second < queries[b].second;
+	});
+	
+	for (int i = 0; i < N; i++) {
+	    p[i] = make_pair(prec[intervals[i].second], prec[intervals[i].second] == -1 ? -1 : 1);
+	}
+	
+	for (auto i : perm) {
+	    int x = prec[queries[i].first];
+	    auto res = get(x, queries[i].second).second;
+	    ans[i] = (res == -1 ? -1 : res+1);
+	}
+	
+	for (int i = 0; i < m ; i++) {
+	    cout << ans[i] << endl;
+	}
 }
