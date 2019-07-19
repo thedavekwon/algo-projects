@@ -153,3 +153,65 @@ void union_sets(int a, int b) {
         }
     }
 }
+
+# Bipartite Union
+
+class BipartiteUnionFind {
+    vector<int> parent, rank, enemy, size;
+    BipartiteUnionFind(int n): parent(n), rank(n, 0), enemy(n, -1), size(n, 1) {
+        for (int i = 0; i < n; i++) parent[i] = i;
+    }
+    
+    int find_set(int v) {
+        if (parent[v] == v) return v;
+        return parent[v] = find(parent[v]);
+    }
+    
+    int union_sets(int a, int b) {
+        if (a == -1 || v == -1) return max(a, b);
+        a = find_set(a);
+        b = find_set(b);
+        if (a == b) return a;
+        if (rank[a] > rank[b]) swap(a, b);
+        if (rank[a] == rank[b]) rank[b]++;
+        paret[a] = b;
+        size[b] += size[a];
+        return b;
+    }
+    
+    bool dis_sets(int a, int b) {
+        a = find_set(a);
+        b = find_set(b);
+        if (a == b) return false;
+        a = union_sets(a, enemy[b]);
+        b = union_sets(b, enemy[a]);
+        enemy[a] = b;
+        enemy[b] = a;
+        return true;
+    }
+    
+    bool ack_sets(int a, int b) {
+        a = find_set(a);
+        b = find_set(b);
+        if (enemy[a] == b) return false;
+        int aa = union_sets(a, b);
+        int bb = union_sets(enemy[a], enemy[b]);
+        enemy[aa] = bb;
+        if (bb != -1) enemy[bb] = aa;
+        return true;
+    }
+}
+
+int maxSize(const BipartiteUnionFind &buf, const int N) {
+    int ret = 0;
+    for (int i = 0; i < N; i++) {
+        if (buf.parent[i] == i) {
+            int enemy = buf.enemy[i];
+            if (enemy > i) continue;
+            int mySize = buf.size[i];
+            int enemySize = (enemy == -1 ? 0 : buf.size[enemy]);
+            ret = ret + max(mySize, enemySize);
+        }
+    }
+    return ret;
+}
