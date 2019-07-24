@@ -1,3 +1,9 @@
+// 1. set the flow of each edge to zero
+// 2. look for an augmenting path from s to t.
+//    An augmenting path is simple path in the residual graph along the edges
+//    whose residual capacity is positive
+// 3. We keep on searching for augmenting paths and increasing the flow
+
 #include <cstring>
 #include <queue>
 #include <vector>

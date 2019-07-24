@@ -1,3 +1,9 @@
+// implementation of the Ford-Fulkerson method that uses BFS for finding augmenting path
+// description: every time we find an augmenting path one of the edges becomes saturated
+// and the distance from the edge to s will be longer, if it appears later again in an
+// augmenting path. And the length of a simple path is bounded by V
+
+
 //the difference between the dfs and bfs is that we dont need to make check as
 //global variable while traversing the graph and we use bfs to traverse the graph
 
@@ -40,12 +46,15 @@ struct MaximumFlow {
         graph[u].push_back(ori);
         graph[v].push_back(rev);
     }
+    
     void add_edge_from_source(int v, int cap) {
         add_edge(source, v, cap);
     }
+    
     void add_edge_to_sink(int u, int cap) {
         add_edge(u, sink, cap);
     }
+    
     int bfs() {
         vector<bool> check(n,false);
         vector<pair<int,int>> from(n, make_pair(-1,-1));
