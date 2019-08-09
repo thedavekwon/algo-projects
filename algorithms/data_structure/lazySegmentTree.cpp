@@ -2,9 +2,9 @@
 
 using namespace std;
 
-typedef long long var;
+typedef long long ll;
 
-var init(vector<var> &nums, vector<var> &tree, int node, int start, int end) {
+ll init(vector<ll> &nums, vector<ll> &tree, int node, int start, int end) {
     if (start == end) {
         return tree[node] = nums[start];
     } else {
@@ -13,7 +13,7 @@ var init(vector<var> &nums, vector<var> &tree, int node, int start, int end) {
     }
 }
 
-void update_lazy(vector<var> &tree, vector<var> &lazy, int node, int start, int end) {
+void update_lazy(vector<ll> &tree, vector<ll> &lazy, int node, int start, int end) {
     if (lazy[node] != 0) {
         tree[node] = tree[node] + (end-start+1)*lazy[node];
         if(start != end) {
@@ -24,7 +24,7 @@ void update_lazy(vector<var> &tree, vector<var> &lazy, int node, int start, int 
     }
 }
 
-void update_range_lazy(vector<var> &tree, vector<var> &lazy, int node, int start, int end, int left, int right, var diff) {
+void update_range_lazy(vector<ll> &tree, vector<ll> &lazy, int node, int start, int end, int left, int right, ll diff) {
     update_lazy(tree, lazy, node, start, end);
     if (left > end || right < start) return;
     if (left <= start && end <= right) {
@@ -40,7 +40,7 @@ void update_range_lazy(vector<var> &tree, vector<var> &lazy, int node, int start
     tree[node] = tree[node*2] + tree[node*2+1];
 }
 
-var sum(vector<var> &tree, vector<var> &lazy, int node, int start, int end, int left, int right) {
+ll sum(vector<ll> &tree, vector<ll> &lazy, int node, int start, int end, int left, int right) {
     update_lazy(tree, lazy, node, start, end);
     if (left > end || right < start) return 0;
     if (left <= start && end <= right) {
