@@ -33,11 +33,7 @@ struct TrieNode {
     TrieNode* find(const char* key) {
         if (*key == 0) return this;
         int next = toNumber(*key);
-        if (children[next] == NULL) return nullptr;
+        if (children[next] == nullptr) return nullptr;
         return children[next]->find(key+1);
     }
 };
-
-int main() {
-    return 0;
-}
