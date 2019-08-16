@@ -14,6 +14,7 @@ struct Trie* get(void) {
 void insert(struct Trie *root, string &key) {
     struct Trie *tmp = root;
     for (int i = 0; i < key.length(); i++) {
-        
+        int idx = key[i] - 'a';
+        if (tmp->)
     }
 }
